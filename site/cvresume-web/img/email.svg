@@ -1,0 +1,401 @@
+<svg id="Footer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1, .cls-15, .cls-37 {
+        opacity: 0.7;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #614261;
+      }
+
+      .cls-13, .cls-15, .cls-16, .cls-17, .cls-2, .cls-21, .cls-22, .cls-3, .cls-33, .cls-37, .cls-38, .cls-4, .cls-5, .cls-6, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        filter: url(#filter);
+      }
+
+      .cls-3 {
+        filter: url(#filter-2);
+      }
+
+      .cls-4, .cls-5 {
+        fill: #212121;
+      }
+
+      .cls-4 {
+        filter: url(#filter-3);
+      }
+
+      .cls-12, .cls-28, .cls-6, .cls-7, .cls-8 {
+        fill: #3e3e3e;
+      }
+
+      .cls-7 {
+        font-size: 18px;
+      }
+
+      .cls-12, .cls-24, .cls-25, .cls-27, .cls-28, .cls-29, .cls-30, .cls-34, .cls-35, .cls-7, .cls-8 {
+        font-family: "Myriad Pro";
+      }
+
+      .cls-30, .cls-34, .cls-8 {
+        font-size: 14px;
+      }
+
+      .cls-23, .cls-27, .cls-8 {
+        opacity: 0.8;
+      }
+
+      .cls-9 {
+        opacity: 0.2;
+      }
+
+      .cls-10, .cls-16, .cls-20, .cls-29, .cls-38 {
+        fill: #fb6470;
+      }
+
+      .cls-11 {
+        fill: none;
+        stroke: #353541;
+        stroke-width: 1px;
+      }
+
+      .cls-12, .cls-26 {
+        font-size: 22px;
+      }
+
+      .cls-13 {
+        fill: #32323a;
+      }
+
+      .cls-14 {
+        opacity: 0.45;
+      }
+
+      .cls-15, .cls-24, .cls-25, .cls-27, .cls-30, .cls-31, .cls-34, .cls-35 {
+        fill: #fff;
+      }
+
+      .cls-17 {
+        fill: #e85662;
+      }
+
+      .cls-18, .cls-22 {
+        fill: #353541;
+      }
+
+      .cls-19, .cls-21, .cls-32 {
+        fill: #f9f9f9;
+      }
+
+      .cls-19, .cls-20, .cls-21 {
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      .cls-23, .cls-24, .cls-25, .cls-27, .cls-29, .cls-39 {
+        font-size: 16px;
+      }
+
+      .cls-24, .cls-29 {
+        text-transform: uppercase;
+      }
+
+      .cls-28 {
+        font-size: 32px;
+      }
+
+      .cls-33 {
+        opacity: 0.1;
+      }
+
+      .cls-34 {
+        opacity: 0.75;
+      }
+
+      .cls-34, .cls-35, .cls-39 {
+        text-anchor: middle;
+      }
+
+      .cls-35 {
+        font-size: 48px;
+      }
+
+      .cls-36 {
+        fill: #0f4553;
+      }
+
+      .cls-37 {
+        fill: #131321;
+      }
+
+      .cls-38 {
+        filter: url(#filter-4);
+      }
+    </style>
+    <filter id="filter" x="-39.313" y="292.188" width="17.25" height="16.218" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="-39.3125" y="292.188" width="17.25" height="16.218" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTcuMjUiIGhlaWdodD0iMTYuMjE4IiB2aWV3Qm94PSIwIDAgMTcuMjUgMTYuMjE4Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBvcGFjaXR5OiAwLjEzOwogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iOC42MjUiIHkxPSIxNi4yMTgiIHgyPSI4LjYyNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjE3LjI1IiBoZWlnaHQ9IjE2LjIxOCIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feFlood result="flood" flood-color="#717171"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur" stdDeviation="1" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#000001" flood-opacity="0.21"/>
+      <feComposite result="composite-3" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="1"/>
+      <feComposite result="composite-4" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" mode="multiply" in2="blend-2"/>
+    </filter>
+    <filter id="filter-2" x="6" y="291.594" width="17" height="17.406" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="6" y="291.594" width="17" height="17.406" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTciIGhlaWdodD0iMTcuNDA2IiB2aWV3Qm94PSIwIDAgMTcgMTcuNDA2Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBvcGFjaXR5OiAwLjEzOwogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iOC41IiB5MT0iMTcuNDA2IiB4Mj0iOC41IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTciIGhlaWdodD0iMTcuNDA2Ii8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feFlood result="flood" flood-color="#717171"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur" stdDeviation="1" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#000001" flood-opacity="0.21"/>
+      <feComposite result="composite-3" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="1"/>
+      <feComposite result="composite-4" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" mode="multiply" in2="blend-2"/>
+    </filter>
+    <filter id="filter-3" x="-86" y="292.438" width="20.438" height="15.156" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="-86" y="292.438" width="20.438" height="15.156" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAuNDM4IiBoZWlnaHQ9IjE1LjE1NiIgdmlld0JveD0iMCAwIDIwLjQzOCAxNS4xNTYiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIG9wYWNpdHk6IDAuMTM7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIxMC4yMTkiIHkxPSIxNS4xNTYiIHgyPSIxMC4yMTkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIyMC40MzgiIGhlaWdodD0iMTUuMTU2Ii8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feFlood result="flood" flood-color="#2ac2c8"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur" stdDeviation="1" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#000001" flood-opacity="0.21"/>
+      <feComposite result="composite-3" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="1"/>
+      <feComposite result="composite-4" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" mode="multiply" in2="blend-2"/>
+    </filter>
+    <filter id="filter-4" x="-746" y="-3058" width="28" height="28" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-1.968" dy="2.264" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.449"/>
+      <feFlood result="flood" flood-opacity="0.35"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Social_icon_copy" data-name="Social icon copy" class="cls-1">
+    <path id="Skype" class="cls-2" d="M-31.918,292.872a4.8,4.8,0,0,0-2.382-.684,5.052,5.052,0,0,0-5.021,4.889,5.051,5.051,0,0,0,1.232,2.976,0.831,0.831,0,0,0-.044.232,7.513,7.513,0,0,0,7.486,7.54c0.365,0,1.2-.095,1.2-0.095l0.071,0.039a4.035,4.035,0,0,0,2.382.636,4.926,4.926,0,0,0,4.925-4.84,4.871,4.871,0,0,0-1.046-2.977l-0.048-.105c0-.066,0-0.133,0-0.2a7.514,7.514,0,0,0-7.486-7.541,7.387,7.387,0,0,0-1.225.1Zm1.474,2.143a5.4,5.4,0,0,0-2.8.9,2.83,2.83,0,0,0-1.486,2.313,2.358,2.358,0,0,0,1.361,2.139,6.977,6.977,0,0,0,2.6.759,2.647,2.647,0,0,1,1.982.852,0.979,0.979,0,0,1,0,1.172,2.231,2.231,0,0,1-1.928.629,4.189,4.189,0,0,1-2.731-1.136,0.854,0.854,0,0,0-1.236.013,0.822,0.822,0,0,0-.176,1.295,5.435,5.435,0,0,0,1.728,1.177,7.879,7.879,0,0,0,2.748.413,5.22,5.22,0,0,0,3.035-.9,2.578,2.578,0,0,0,1.3-2.139,2.486,2.486,0,0,0-1.22-2.311,6.387,6.387,0,0,0-2.716-.863,3.862,3.862,0,0,1-1.943-.675,1.119,1.119,0,0,1-.054-1.273,2.067,2.067,0,0,1,2.033-.568,5.091,5.091,0,0,1,2.043,1.064,0.942,0.942,0,0,0,1.071-.267,0.949,0.949,0,0,0-.013-1.24,2.746,2.746,0,0,0-1.051-.835,6.911,6.911,0,0,0-2.551-.527h0Z"/>
+    <path id="Dribbble_3" data-name="Dribbble 3" class="cls-3" d="M14.614,309a8.767,8.767,0,0,1-8.62-8.8,8.6,8.6,0,0,1,8.62-8.611,8.4,8.4,0,0,1,8.38,8.611A8.567,8.567,0,0,1,14.614,309Zm7.1-7.616a9.8,9.8,0,0,0-4.418-.317,32.219,32.219,0,0,1,1.43,5.288A7.233,7.233,0,0,0,21.716,301.382Zm-4.226,5.65a30.982,30.982,0,0,0-1.571-5.624l-0.049.016a10.118,10.118,0,0,0-5.776,4.632,7.492,7.492,0,0,0,4.519,1.782A7.48,7.48,0,0,0,17.491,307.032Zm-8.346-1.868a11.7,11.7,0,0,1,5.985-4.894c0.1-.031.193-0.061,0.29-0.088-0.185-.421-0.386-0.844-0.6-1.259a26.99,26.99,0,0,1-7.567,1.056c0,0.075,0,.15,0,0.226A7.417,7.417,0,0,0,9.144,305.164Zm-1.737-6.478a27.268,27.268,0,0,0,6.807-.9,46.855,46.855,0,0,0-2.8-4.361A7.467,7.467,0,0,0,7.407,298.686ZM12.889,293a39.511,39.511,0,0,1,2.747,4.341,8.639,8.639,0,0,0,3.931-2.751,7.487,7.487,0,0,0-4.953-1.868A7.314,7.314,0,0,0,12.889,293Zm7.5,2.447a10.146,10.146,0,0,1-4.183,3c0.171,0.354.336,0.713,0.489,1.074,0.054,0.129.107,0.256,0.159,0.383a16.352,16.352,0,0,1,5.031.239A7.488,7.488,0,0,0,20.386,295.442Z"/>
+    <path id="Twitter" class="cls-4" d="M-85.815,303.654a15.353,15.353,0,0,0,3.91,1.267,3.6,3.6,0,0,0,3.631-1.3,0.511,0.511,0,0,0-.125-0.764s-4.709-1.377-4.375-2.188c0,0-.021-0.457.584-0.354,0,0,.681-0.674.348-0.883,0,0-.522-0.676-0.1-0.718,0,0,1.064.287,1.461,0.391,0,0,.271-0.1.021-0.284a1.475,1.475,0,0,1-.612-0.638s0.174-.408.842-0.117c0,0,.209-0.041.021-0.249,0,0-.481-0.333-0.21-0.6,0,0,.764-0.55,2.705,1.8,0,0,.355.477,0.4,0.02,0,0,1.407-5.975,3.682-6.37a1.228,1.228,0,0,0,.876-0.083,1.093,1.093,0,0,1,.841-0.042,0.332,0.332,0,0,0,.459.125s0.9-.354.626,0.229a4.646,4.646,0,0,1-1.237.846c-0.313.021-.25,0.312,0.021,0.353,0,0,3.819.335,3.819,3.122,0,0,.219.663,0.929-0.024a7.787,7.787,0,0,1,1.345-.714s0.292-.187.251,0.25a5.087,5.087,0,0,1-1.565,1.707s-0.48.6,0.209,0.478a4.171,4.171,0,0,0,.983-0.325s0.814-.394.438,0.313a10.51,10.51,0,0,1-2.089,1.108,0.326,0.326,0,0,0-.25.291s-0.23,7.276-9.787,7.276A10.457,10.457,0,0,1-85.69,304.2S-86.3,303.551-85.815,303.654Z"/>
+    <path class="cls-5" d="M-52.551,291h0.569v18h-0.569V291Z"/>
+    <path id="Rectangle_45_copy" data-name="Rectangle 45 copy" class="cls-5" d="M-7.592,291h0.569v18H-7.592V291Z"/>
+  </g>
+  <g id="Address">
+    <g id="Location">
+      <path id="Home" class="cls-6" d="M31.105-96.154l-13-13.012a3.07,3.07,0,0,0-4.242,0l-13,13.012a3.008,3.008,0,0,0,0,4.246,2.98,2.98,0,0,0,2.121.88,3,3,0,0,0,1-.182v11.192a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2v-7.007h8v7.007a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2V-91.209a3,3,0,0,0,1,.182,2.98,2.98,0,0,0,2.121-.88A3.008,3.008,0,0,0,31.105-96.154Zm-15.121-11.89a0.993,0.993,0,0,1,.707.293,1,1,0,0,1,0,1.416l-0.707.707-0.707-.707a1,1,0,0,1,0-1.416A0.993,0.993,0,0,1,15.984-108.044ZM2.277-93.323a1,1,0,0,1,0-1.415l11.009-11.02a2.977,2.977,0,0,0,.577.838l0.707,0.708L3.691-93.323A1.024,1.024,0,0,1,2.277-93.323ZM21.984-80.017v-7.007a2,2,0,0,0-2-2h-8a2,2,0,0,0-2,2v7.007h-4v-12.77l10-10.01,10,10.01v12.77h-4Zm7.707-13.306a1.024,1.024,0,0,1-1.414,0L17.4-104.212l0.707-.708a2.977,2.977,0,0,0,.577-0.838l11.009,11.02A1,1,0,0,1,29.691-93.323ZM15.984-99.035a4.006,4.006,0,0,0-4,4,4.006,4.006,0,0,0,4,4,4.006,4.006,0,0,0,4-4A4.006,4.006,0,0,0,15.984-99.035Zm0,6.006a2,2,0,0,1-2-2,2,2,0,0,1,2-2,2,2,0,0,1,2,2A2,2,0,0,1,15.984-93.029Z"/>
+      <g id="Texts">
+        <text id="Location-2" data-name="Location" class="cls-7" x="77" y="-105.61">Location</text>
+        <text id="_324_Golden_Tower_Amborkhana_Sylhet" data-name="324, Golden Tower, Amborkhana, Sylhet" class="cls-8" x="77" y="-71">324, Golden Tower, Amborkhana, Sylhet</text>
+      </g>
+    </g>
+    <g id="Email">
+      <path id="Mail_2" class="cls-6" d="M-0.567,21.175L29.425,0.184h0c0.007,0,.015-0.007.023-0.012a0.872,0.872,0,0,1,.08-0.04A0.8,0.8,0,0,1,29.619.087,1.008,1.008,0,0,1,29.738.044a0.966,0.966,0,0,1,.108-0.02c0.024,0,.048-0.011.072-0.013s0.023-.006.035-0.007a1.105,1.105,0,0,1,.135.013c0.036,0,.071,0,0.107.011a0.708,0.708,0,0,1,.091.024,0.877,0.877,0,0,1,.1.038A0.915,0.915,0,0,1,30.5.14c0.006,0,.011.009,0.017,0.013a0.071,0.071,0,0,1,.013.005c0.014,0.009.02,0.022,0.033,0.032S30.6,0.218,30.618.232s0.035,0.016.05,0.03,0.011,0.017.019,0.025a1.007,1.007,0,0,1,.095.11A0.932,0.932,0,0,1,30.84.48c0.019,0.03.04,0.058,0.056,0.088s0.013,0.043.021,0.064a1.071,1.071,0,0,1,.037.109C30.96,0.76,30.97.778,30.974,0.8s0.006,0.07.01,0.1a0.942,0.942,0,0,1,0,.108c0,0.031.007,0.062,0,.094L28,31.094a1,1,0,0,1-1.474.778l-11-6c-0.024-.013-0.039-0.036-0.062-0.052L11.851,31.53a1,1,0,0,1-.114.138c-0.013.014-.022,0.029-0.036,0.043a0.969,0.969,0,0,1-.278.187c-0.023.011-.046,0.019-0.07,0.027a1.009,1.009,0,0,1-.345.07h0a1,1,0,0,1-.343-0.07c-0.033-.013-0.063-0.027-0.095-0.043a0.921,0.921,0,0,1-.1-0.043,0.878,0.878,0,0,1-.076-0.073,0.934,0.934,0,0,1-.147-0.141,0.964,0.964,0,0,1-.1-0.155,0.906,0.906,0,0,1-.116-0.371,0.941,0.941,0,0,1-.021-0.1v-8h-10a1,1,0,0,1-.954-0.7A1,1,0,0,1-.567,21.175Zm12.573,6.371,10.9-17.216-10.9,12.05v5.166Zm14.155,1.848L28.584,5.106,16.53,24.141Zm-15.6-8.4L23.31,6.9,3.179,20.994h7.383Z"/>
+      <g id="Texta">
+        <text id="junaed_deviserweb.com" data-name="junaed@deviserweb.com" class="cls-8" x="77" y="39">junaed@deviserweb.com</text>
+      </g>
+    </g>
+    <g id="Call">
+      <path id="Phone_2" class="cls-6" d="M5.082,141.988a3.538,3.538,0,0,1-2.512-1.037l-0.9-.9c-3.93-3.922-.77-13.221,7.193-21.169,5.483-5.473,11.835-8.871,16.58-8.871a6.377,6.377,0,0,1,4.631,1.692l0.9,0.9a3.538,3.538,0,0,1,0,5.015l-3.6,3.59a3.645,3.645,0,0,1-5.025,0l-0.9-.9a1.52,1.52,0,0,0-1.134-.429c-0.9,0-2.926.523-6.43,4.019-4.114,4.106-4.555,6.592-3.6,7.55l0.9,0.9a3.544,3.544,0,0,1,0,5.014L7.6,140.95A3.538,3.538,0,0,1,5.082,141.988Zm20.362-29.961c-4.164,0-10.111,3.25-15.152,8.281-6.924,6.91-10.218,15.3-7.193,18.319l0.9,0.9a1.576,1.576,0,0,0,2.171,0l3.6-3.59a1.529,1.529,0,0,0,0-2.163l-0.9-.9c-1.026-1.025-2.729-4.089,3.6-10.4,3.065-3.058,5.709-4.609,7.858-4.609a3.537,3.537,0,0,1,2.562,1.02l0.9,0.9a1.573,1.573,0,0,0,2.169,0l3.6-3.591a1.525,1.525,0,0,0,0-2.163l-0.9-.9A4.364,4.364,0,0,0,25.444,112.027Z"/>
+      <g id="Texts-2" data-name="Texts">
+        <text id="_0800_234_6578_" data-name="0800 234 6578 " class="cls-8" x="77" y="149">0800 234 6578 </text>
+      </g>
+    </g>
+  </g>
+  <path id="Divider" class="cls-9" d="M-54-110h-1V140h1V-110Z"/>
+  <g id="Message_Box_s" data-name="Message_Box&apos;s">
+    <g id="Hire_Btn">
+      <rect id="Rectangle_44_copy_3" data-name="Rectangle 44 copy 3" class="cls-10" x="-228" y="146" width="95" height="35"/>
+    </g>
+    <rect class="cls-11" x="-398" y="-82" width="265" height="35"/>
+    <rect id="Rectangle_44_copy" data-name="Rectangle 44 copy" class="cls-11" x="-398" y="-26" width="265" height="35"/>
+    <rect id="Rectangle_44_copy_2" data-name="Rectangle 44 copy 2" class="cls-11" x="-398" y="30" width="265" height="95"/>
+    <text id="Leave_a_Message" data-name="Leave a Message" class="cls-12" x="-398" y="-108.667">Leave a Message</text>
+  </g>
+  <g id="BG_Img">
+    <path id="Header_Bg_copy_3" data-name="Header_Bg copy 3" class="cls-13" d="M-515.76-633H439v428H-515.76V-633Z"/>
+    <image x="-521" y="-683" width="980" height="534" xlink:href="data:img/png;base64,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"/>
+    <rect id="Header_Bg_copy_4" data-name="Header_Bg copy 4" class="cls-14" x="-517" y="-633" width="956" height="428"/>
+  </g>
+  <g id="Details">
+    <g id="Left">
+      <g id="Shape">
+        <path class="cls-15" d="M-398-432.893h264.989v4.322H-398v-4.322Z"/>
+        <path id="Rectangle_3_copy_2" data-name="Rectangle 3 copy 2" class="cls-16" d="M-398-433.244h221.565v4.485H-398v-4.485Z"/>
+        <path class="cls-17" d="M-177.906-440.007a8.917,8.917,0,0,1,8.827,9,8.916,8.916,0,0,1-8.827,9,8.917,8.917,0,0,1-8.828-9A8.917,8.917,0,0,1-177.906-440.007Z"/>
+      </g>
+      <g id="Shape_copy" data-name="Shape copy">
+        <path class="cls-15" d="M-398-358.893h264.989v4.322H-398v-4.322Z"/>
+        <path id="Rectangle_3_copy_2-2" data-name="Rectangle 3 copy 2" class="cls-16" d="M-398-358.994h244v4.984H-398v-4.984Z"/>
+        <path class="cls-17" d="M-151.906-366.007a8.917,8.917,0,0,1,8.827,9,8.916,8.916,0,0,1-8.827,9,8.917,8.917,0,0,1-8.828-9A8.917,8.917,0,0,1-151.906-366.007Z"/>
+      </g>
+      <g id="Shape_copy_2" data-name="Shape copy 2">
+        <path class="cls-15" d="M-398-280.893h264.989v4.322H-398v-4.322Z"/>
+        <path id="Rectangle_3_copy_2-3" data-name="Rectangle 3 copy 2" class="cls-16" d="M-398-280.994h170v4.984H-398v-4.984Z"/>
+        <path class="cls-17" d="M-230.906-288.007a8.917,8.917,0,0,1,8.827,9,8.916,8.916,0,0,1-8.827,9,8.917,8.917,0,0,1-8.828-9A8.917,8.917,0,0,1-230.906-288.007Z"/>
+      </g>
+    </g>
+    <g id="Right">
+      <g id="Shape_copy_3" data-name="Shape copy 3">
+        <path class="cls-15" d="M-18-432.893H246.989v4.322H-18v-4.322Z"/>
+        <path id="Rectangle_3_copy_2-4" data-name="Rectangle 3 copy 2" class="cls-16" d="M-18-433.244H203.565v4.485H-18v-4.485Z"/>
+        <path class="cls-17" d="M202.094-440.007a8.917,8.917,0,0,1,8.827,9,8.916,8.916,0,0,1-8.827,9,8.917,8.917,0,0,1-8.828-9A8.917,8.917,0,0,1,202.094-440.007Z"/>
+      </g>
+      <g id="Shape_copy_3-2" data-name="Shape copy 3">
+        <path class="cls-15" d="M-18-358.893H246.989v4.322H-18v-4.322Z"/>
+        <path id="Rectangle_3_copy_2-5" data-name="Rectangle 3 copy 2" class="cls-16" d="M-18-358.994H169v4.984H-18v-4.984Z"/>
+        <path class="cls-17" d="M164.094-366.007a8.917,8.917,0,0,1,8.827,9,8.916,8.916,0,0,1-8.827,9,8.917,8.917,0,0,1-8.828-9A8.917,8.917,0,0,1,164.094-366.007Z"/>
+      </g>
+      <g id="Shape_copy_3-3" data-name="Shape copy 3">
+        <path class="cls-15" d="M-18-280.893H246.989v4.322H-18v-4.322Z"/>
+        <path id="Rectangle_3_copy_2-6" data-name="Rectangle 3 copy 2" class="cls-16" d="M-18-280.994H215v4.984H-18v-4.984Z"/>
+        <path class="cls-17" d="M217.094-288.007a8.917,8.917,0,0,1,8.827,9,8.916,8.916,0,0,1-8.827,9,8.917,8.917,0,0,1-8.828-9A8.917,8.917,0,0,1,217.094-288.007Z"/>
+      </g>
+    </g>
+    <rect class="cls-10" x="-398" y="-516" width="76" height="2"/>
+  </g>
+  <rect id="Rectangle_43_copy_2" data-name="Rectangle 43 copy 2" class="cls-10" x="-398" y="-1206" width="76" height="2"/>
+  <g id="Details-2" data-name="Details">
+    <g id="Midlle_copy" data-name="Midlle copy">
+      <rect class="cls-18" x="-28" y="-1144" width="1" height="419"/>
+      <ellipse class="cls-19" cx="-28" cy="-1156.655" rx="16" ry="16.345"/>
+      <ellipse id="Ellipse_4_copy_2" data-name="Ellipse 4 copy 2" class="cls-20" cx="-28" cy="-1156.5" rx="7" ry="7.5"/>
+      <path id="Ellipse_4_copy" data-name="Ellipse 4 copy" class="cls-21" d="M-28-1013.46a16.178,16.178,0,0,1,16,16.35,16.175,16.175,0,0,1-16,16.345A16.175,16.175,0,0,1-44-997.11,16.178,16.178,0,0,1-28-1013.46Z"/>
+      <ellipse id="Ellipse_4_copy_3" data-name="Ellipse 4 copy 3" class="cls-20" cx="-28" cy="-997.5" rx="7" ry="7.5"/>
+      <path class="cls-21" d="M-28-904.118a16.175,16.175,0,0,1,16,16.345,16.176,16.176,0,0,1-16,16.346,16.176,16.176,0,0,1-16-16.346A16.175,16.175,0,0,1-28-904.118Z"/>
+      <ellipse id="Ellipse_4_copy_4" data-name="Ellipse 4 copy 4" class="cls-20" cx="-28" cy="-887.5" rx="7" ry="7.5"/>
+      <path id="Ellipse_4_copy-2" data-name="Ellipse 4 copy" class="cls-21" d="M-28-745.574a16.176,16.176,0,0,1,16,16.346,16.175,16.175,0,0,1-16,16.345,16.175,16.175,0,0,1-16-16.345A16.176,16.176,0,0,1-28-745.574Z"/>
+      <ellipse id="Ellipse_4_copy_5" data-name="Ellipse 4 copy 5" class="cls-20" cx="-28" cy="-729.5" rx="7" ry="7.5"/>
+    </g>
+    <g id="UI_UX_Designer_copy" data-name="UI/UX Designer copy">
+      <path id="Rounded_Rectangle_3" data-name="Rounded Rectangle 3" class="cls-22" d="M-91-981H-390a8,8,0,0,1-8-8v-100a8,8,0,0,1,8-8H-91a8,8,0,0,1,8,8v66.5c0,4.99,24,20.5,24,20.5s-24,.25-24,3v10A8,8,0,0,1-91-981Z"/>
+      <text id="_Oxford_University" data-name="@Oxford University" class="cls-23" transform="translate(-239.955 -1070)"><tspan class="cls-24">@</tspan>Oxford University</text>
+      <text id="Art_Multimedia_" data-name="Art &amp; Multimedia " class="cls-25" transform="translate(-380.653 -1069.501)">Art &amp; Multimedia<tspan class="cls-26"> </tspan></text>
+    </g>
+    <g id="UI_UX_Designer_copy_2" data-name="UI/UX Designer copy 2">
+      <path id="Rounded_Rectangle_3-2" data-name="Rounded Rectangle 3" class="cls-22" d="M-91-713H-390a8,8,0,0,1-8-8V-821a8,8,0,0,1,8-8H-91a8,8,0,0,1,8,8v66.5c0,4.991,24,20.5,24,20.5s-24,.252-24,3v10A8,8,0,0,1-91-713Z"/>
+      <text id="_Lusofona_College" data-name="@Lusofona College" class="cls-27" transform="translate(-250.955 -802)">@Lusofona College</text>
+      <text id="Lorem_Ipsum" data-name="Lorem Ipsum" class="cls-25" x="105.655" y="-1137.942">Lorem Ipsum</text>
+      <text id="Post_Graduation_" data-name="Post Graduation " class="cls-25" transform="translate(-380.653 -801.501)">Post Graduation<tspan class="cls-26"> </tspan></text>
+      <text id="Lorem_Ipsum-2" data-name="Lorem Ipsum" class="cls-25" x="-132.378" y="-796.576">Lorem Ipsum</text>
+    </g>
+    <g id="UI_UX_Designer" data-name="UI/UX Designer">
+      <path id="Rounded_Rectangle_3-3" data-name="Rounded Rectangle 3" class="cls-22" d="M35-1174H334a8,8,0,0,1,8,8v100a8,8,0,0,1-8,8H35a8,8,0,0,1-8-8v-66.5c0-4.99-24-20.5-24-20.5s24-.25,24-3v-10A8,8,0,0,1,35-1174Z"/>
+      <text id="_AIUB" data-name="@AIUB" class="cls-27" x="151" y="-1144.998">@AIUB</text>
+      <text id="High_School_" data-name="High School " class="cls-25" x="43.5" y="-1144.499">High School<tspan class="cls-26"> </tspan></text>
+    </g>
+    <g id="UI_UX_Designer_copy_2-2" data-name="UI/UX Designer copy 2">
+      <path id="Rounded_Rectangle_3-4" data-name="Rounded Rectangle 3" class="cls-22" d="M35-906H334a8,8,0,0,1,8,8v100a8,8,0,0,1-8,8H35a8,8,0,0,1-8-8v-66.5C27-869.492,3-885,3-885s24-.253,24-3v-10A8,8,0,0,1,35-906Z"/>
+      <text id="_Leading_Universty" data-name="@Leading Universty" class="cls-27" x="181" y="-876.998">@Leading Universty</text>
+      <text id="Bachelor_Degree_" data-name="Bachelor Degree " class="cls-25" x="43.5" y="-876.499">Bachelor Degree<tspan class="cls-26"> </tspan></text>
+    </g>
+  </g>
+  <text id="Education" class="cls-28" x="-398" y="-1224.998">Education</text>
+  <g id="Details-3" data-name="Details">
+    <g id="UI_UX_Designer_copy-2" data-name="UI/UX Designer copy">
+      <path id="Rounded_Rectangle_3-5" data-name="Rounded Rectangle 3" class="cls-22" d="M-91-1677H-390a8,8,0,0,1-8-8v-100a8,8,0,0,1,8-8H-91a8,8,0,0,1,8,8v66.5c0,4.99,24,20.5,24,20.5s-24,.25-24,3v10A8,8,0,0,1-91-1677Z"/>
+      <text id="Jan_2013_-_Dec_2014" data-name="Jan 2013 - Dec 2014" class="cls-29" transform="translate(-380.15 -1743.002)">Jan 2013 - Dec 2014</text>
+      <text id="Lorem_Ipsum-3" data-name="Lorem Ipsum" class="cls-29" x="117.267" y="-1835.206">Lorem Ipsum</text>
+      <text id="Lorem_ipsum_dolor_sit_amet_consectetur_et_incididunt_ut_labore" data-name="Lorem ipsum dolor sit amet, consectetur et incididunt ut labore" class="cls-30" transform="translate(-380 -1728.861)">Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</text>
+      <text id="_DeviserWeb" data-name="@DeviserWeb" class="cls-23" transform="translate(-247.955 -1766)"><tspan class="cls-24">@</tspan>DeviserWeb</text>
+      <text id="CEO_Founder_" data-name="CEO &amp; Founder " class="cls-25" transform="translate(-380.653 -1765.501)">CEO &amp; Founder<tspan class="cls-26"> </tspan></text>
+    </g>
+    <g id="UI_UX_Designer_copy_2-3" data-name="UI/UX Designer copy 2">
+      <path id="Rounded_Rectangle_3-6" data-name="Rounded Rectangle 3" class="cls-22" d="M-91-1409H-390a8,8,0,0,1-8-8v-100a8,8,0,0,1,8-8H-91a8,8,0,0,1,8,8v66.5c0,4.99,24,20.5,24,20.5s-24,.25-24,3v10A8,8,0,0,1-91-1409Z"/>
+      <text id="Jan_2013_-_Dec_2014-2" data-name="Jan 2013 - Dec 2014" class="cls-29" transform="translate(-380.15 -1475.002)">Jan 2013 - Dec 2014</text>
+      <text id="Lorem_ipsum_dolor_sit_amet_consectetur_et_incididunt_ut_labore-2" data-name="Lorem ipsum dolor sit amet, consectetur et incididunt ut labore" class="cls-30" transform="translate(-380 -1460.861)">Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</text>
+      <text id="_StarLab" data-name="@StarLab" class="cls-27" transform="translate(-219.955 -1496.998)">@StarLab</text>
+      <text id="Marketing_Manager" data-name="Marketing Manager" class="cls-25" transform="translate(-380.653 -1497.501)">Marketing Manager</text>
+    </g>
+    <g id="UI_UX_Designer-2" data-name="UI/UX Designer">
+      <path id="Rounded_Rectangle_3-7" data-name="Rounded Rectangle 3" class="cls-22" d="M35-1870H334a8,8,0,0,1,8,8v100a8,8,0,0,1-8,8H35a8,8,0,0,1-8-8v-66.5c0-4.99-24-20.5-24-20.5s24-.25,24-3v-10A8,8,0,0,1,35-1870Z"/>
+      <text id="_Academy" data-name="@Academy" class="cls-27" x="173" y="-1840.998">@Academy</text>
+      <text id="Jan_2013_-_Dec_2014-3" data-name="Jan 2013 - Dec 2014" class="cls-29" x="44" y="-1818">Jan 2013 - Dec 2014</text>
+      <text id="UI_UX_Designer_" data-name="UI/UX Designer " class="cls-25" x="43.5" y="-1840.499">UI/UX Designer<tspan class="cls-26"> </tspan></text>
+    </g>
+    <g id="UI_UX_Designer_copy_2-4" data-name="UI/UX Designer copy 2">
+      <path id="Rounded_Rectangle_3-8" data-name="Rounded Rectangle 3" class="cls-22" d="M35-1602H334a8,8,0,0,1,8,8v100a8,8,0,0,1-8,8H35a8,8,0,0,1-8-8v-66.5c0-4.99-24-20.5-24-20.5s24-.25,24-3v-10A8,8,0,0,1,35-1602Z"/>
+      <text id="Jan_2013_-_Dec_2014-4" data-name="Jan 2013 - Dec 2014" class="cls-29" x="44" y="-1550">Jan 2013 - Dec 2014</text>
+      <text id="Lorem_ipsum_dolor_sit_amet_consectetur_et_incididunt_ut_labore-3" data-name="Lorem ipsum dolor sit amet, consectetur et incididunt ut labore" class="cls-30" x="44.152" y="-1535.859">Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</text>
+      <text id="_Academy-2" data-name="@Academy" class="cls-27" x="181" y="-1572.998">@Academy</text>
+      <text id="Creative_Director_" data-name="Creative Director " class="cls-25" x="43.5" y="-1572.499">Creative Director<tspan class="cls-26"> </tspan></text>
+    </g>
+    <g id="Midlle">
+      <rect class="cls-18" x="-28" y="-1840" width="1" height="419"/>
+      <ellipse class="cls-19" cx="-28" cy="-1852.655" rx="16" ry="16.345"/>
+      <ellipse id="Ellipse_4_copy_2-2" data-name="Ellipse 4 copy 2" class="cls-20" cx="-28" cy="-1852.5" rx="7" ry="7.5"/>
+      <path id="Ellipse_4_copy-3" data-name="Ellipse 4 copy" class="cls-21" d="M-28-1709.46a16.178,16.178,0,0,1,16,16.35,16.178,16.178,0,0,1-16,16.35,16.178,16.178,0,0,1-16-16.35A16.178,16.178,0,0,1-28-1709.46Z"/>
+      <ellipse id="Ellipse_4_copy_3-2" data-name="Ellipse 4 copy 3" class="cls-20" cx="-28" cy="-1693.5" rx="7" ry="7.5"/>
+      <path class="cls-21" d="M-28-1600.12a16.178,16.178,0,0,1,16,16.35,16.175,16.175,0,0,1-16,16.34,16.175,16.175,0,0,1-16-16.34A16.178,16.178,0,0,1-28-1600.12Z"/>
+      <ellipse id="Ellipse_4_copy_4-2" data-name="Ellipse 4 copy 4" class="cls-20" cx="-28" cy="-1583.5" rx="7" ry="7.5"/>
+      <path id="Ellipse_4_copy-4" data-name="Ellipse 4 copy" class="cls-21" d="M-28-1441.57a16.169,16.169,0,0,1,16,16.34,16.178,16.178,0,0,1-16,16.35,16.178,16.178,0,0,1-16-16.35A16.169,16.169,0,0,1-28-1441.57Z"/>
+      <ellipse id="Ellipse_4_copy_5-2" data-name="Ellipse 4 copy 5" class="cls-20" cx="-28" cy="-1425.5" rx="7" ry="7.5"/>
+    </g>
+  </g>
+  <rect class="cls-10" x="-398" y="-1907" width="76" height="2"/>
+  <rect class="cls-31" x="-418" y="-2629" width="847" height="520"/>
+  <image x="21" y="-2573" width="321" height="491" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAA08AAAIICAYAAAC2FNV6AAALNklEQVR4nO3ZwQ2CUBQFUTTkl0QBFm4BlMQGO5BJxMTgOSXct5q8277v+wQAAMBbd/MAAAAcE08AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBgNhIAV7MsDzcF/ta6Ph3/S3yeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAYD57pG3b7A7wg8YYzgIAH/B5AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIBBPAAAAgXgCAAAIxBMAAEAgngAAAALxBAAAEIgnAACAQDwBAAAE4gkAACAQTwAAAIF4AgAACMQTAABAIJ4AAAAC8QQAABCIJwAAgEA8AQAABOIJAAAgEE8AAACBeAIAAAjEEwAAQCCeAAAAAvEEAAAQiCcAAIBAPAEAAATiCQAAIJjPHmmMYXcAAOByfJ4AAAAC8QQAABCIJwAAgCPTNL0A37IOJIVIQ2oAAAAASUVORK5CYII="/>
+  <rect class="cls-32" x="-398" y="-2369" width="360" height="256"/>
+  <g id="Details-4" data-name="Details">
+    <g id="Divider-2" data-name="Divider">
+      <path id="Shape_9_copy" data-name="Shape 9 copy" class="cls-33" d="M-398-2317v-1H-38v1H-398Z"/>
+      <path id="Shape_9_copy_2" data-name="Shape 9 copy 2" class="cls-33" d="M-398-2266v-1H-38v1H-398Z"/>
+      <path id="Shape_9_copy_3" data-name="Shape 9 copy 3" class="cls-33" d="M-398-2215v-1H-38v1H-398Z"/>
+      <path id="Shape_9_copy_4" data-name="Shape 9 copy 4" class="cls-33" d="M-398-2164v-1H-38v1H-398Z"/>
+    </g>
+    <text id="Name_:_Al_Rayhan_Age_:_23_Years_Email_:_mail_deviserweb.com_Web" data-name="Name : Al Rayhan Age : 23 Years Email : mail@deviserweb.com Web" class="cls-7" x="-399.126" y="-2348.998">Name : Al Rayhan<tspan x="-399.126" dy="50.004">Age : 23 Years</tspan><tspan x="-399.126" dy="50.004">Email : mail@deviserweb.com</tspan><tspan x="-399.126" dy="50.004">Web : deviserweb.com</tspan><tspan x="-399.126" dy="50.004">Address : 24, Golden Street, New Castle</tspan></text>
+  </g>
+  <g id="Title">
+    <text id="Lorem_ipsum_dolor_sit_amet_ectetuer_nonummy_nibh_euismod_tinci" data-name="Lorem ipsum dolor sit amet, ectetuer nonummy nibh euismod tinci" class="cls-8" x="-398" y="-2458">Lorem ipsum dolor sit amet, ectetuer nonummy nibh euismod tincidunt ut laoreet  magna  laoreet  aliquam erat volutpat.</text>
+    <rect id="Rectangle_43_copy" data-name="Rectangle 43 copy" class="cls-10" x="-398" y="-2493" width="76" height="2"/>
+  </g>
+  <g id="Bg_Img-2" data-name="Bg_Img">
+    <rect id="Header_Bg" class="cls-31" x="-513" y="-3089" width="950" height="436"/>
+    <image x="-517" y="-3089" width="956" height="544" xlink:href="data:img/png;base64,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WwAAANKMLQAAAGnGFgAAgDRjCwAAQJqxBQAAIM3YAgAAkGZsAQAASDO2AAAApBlbAAAA0owtAAAAacYWAACANGMLAABAmrEFAAAgzdgCAACQZmwBAABIM7YAAACkGVsAAADSjC0AAABpxhYAAIA0YwsAAECasQUAACDN2AIAAJBmbAEAAEgztgAAAKQZWwAAANKMLQAAAGnGFgAAgDRjCwAAQJqxBQAAIM3YAgAAkGZsAQAASDO2AAAApBlbAAAA0owtAAAAacYWAACANGMLAABAmrEFAAAgzdgCAACQZmwBAABIM7YAAACkGVsAAADSjC0AAABpxhYAAIA0YwsAAECasQUAACDN2AIAAJBmbAEAAEgztgAAAKQZWwAAANKMLQAAAGnGFgAAgDRjCwAAQJqxBQAAIM3YAgAAkGZsAQAASDO2AAAApBlbAAAA0owtAAAAacYWAACANGMLAABAmrEFAAAgzdgCAACQZmwBAABIM7YAAACkGVsAAADSjC0AAABpxhYAAIA0YwsAAECasQUAACDN2AIAAJBmbAEAAEgztgAAAKQZWwAAANKMLQAAAGnGFgAAgDRjCwAAQJqxBQAAIM3YAgAAkGZsAQAASDO2AAAApBlbAAAA0owtAAAAacYWAACANGMLAABAmrEFAAAgzdgCAACQZmwBAABIM7YAAACkGVsAAADSjC0AAABpxhYAAIA0YwsAAECasQUAACDN2AIAAJBmbAEAAEgztgAAAKQZWwAAANKMLQAAAGnGFgAAgDRjCwAAQJqxBQAAIM3YAgAAkGZsAQAASDO2AAAApBlbAAAA0owtAAAAacYWAACANGMLAABAmrEFAAAgzdgCAACQZmwBAABIM7YAAACkGVsAAADSjC0AAABpxhYAAIA0YwsAAECasQUAACDN2AIAAJBmbAEAAEgztgAAAKQZWwAAANKMLQAAAGnGFgAAgDRjCwAAQJqxBQAAIM3YAgAAkGZsAQAASDO2AAAApBlbAAAA0owtAAAAacYWAACANGMLAABAmrEFAAAgzdgCAACQZmwBAABIM7YAAACkGVsAAADSjC0AAABpxhYAAIA0YwsAAECasQUAACDN2AIAANA1Mz9K3QgUQl24lgAAAABJRU5ErkJggg=="/>
+  </g>
+  <g id="Details-5" data-name="Details">
+    <g id="Hire_Btn-2" data-name="Hire_Btn">
+      <rect id="Hire_Btn-3" data-name="Hire_Btn" class="cls-10" x="-165" y="-2817" width="170" height="49" rx="3.886" ry="3.886"/>
+    </g>
+    <g id="Title-2" data-name="Title">
+      <text id="I_m_an_UI_designer_that_prides_ourself_on_being_strategic_brand" data-name="I’m an UI designer that prides ourself on being strategic brand" class="cls-34" x="-356.998" y="-2912"><tspan x="-356.998">I’m an UI designer that prides ourself on being strategic brand partners and awesome product providers</tspan></text>
+      <text id="Lets_Make_Something_Great" data-name="Lets Make Something Great" class="cls-35" x="-82" y="-2939.002"><tspan x="-82">Lets Make Something Great</tspan></text>
+    </g>
+  </g>
+  <rect id="Header_Bg_copy" data-name="Header_Bg copy" class="cls-18" x="-788" y="-3091" width="275" height="4604"/>
+  <g id="Profile_Image">
+    <rect class="cls-36" x="-788" y="-3090" width="275" height="221"/>
+    <image x="-794" y="-3092" width="284" height="258" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAADdCAYAAACYPJbIAAADDElEQVR4nO3dwRHCQAwEQZlSSgRA/kGZIDTP7hD8mFrg8D3f7+8dgKOPBwgUxARIiAmQEBMgISZAQkyAhJgACTEBEmICJMQESIgJkBATICEmQEJMgISYAAkxARJiAiTEBEiICZAQEyAhJkBCTICEmAAJMQESYgIkxARIiAmQEBMgISZAQkyAhJgACTEBEmICJMQESIgJkNiZx5MEziwTICEmQEJMgISYAAkxARJiAiTEBEiICZAQEyCxDsACBcsESIgJkBATICEmQEJMgISYAAkxARL7OmgCBCwTICEmQEJMgISYAAkxARJiAiTEBEiICZAQEyAhJkBCTICEmAAJMQESYgIkXHUBJCwTICEmQEJMgISYAImd14ME7iwTILHz+G0YuLNMgISYAAkxARJiAiTEBEiICZAQEyAhJkBCTICEmACJ9T8/oGCZAAkxARJiAiTEBEiICZAQEyAhJkBCTICEmAAJMQESYgIkxARIiAmQEBMgISZAYmdcDwrc7YzXIwF3PuYACTEBEmICJMQESIgJkBATICEmQEJMgISYAAkxARLuGgYSlgmQEBMgISZAQkyAhJgACTEBEmICJMQESIgJkBATICEmQEJMgMS6NgcoWCZAQkyAhJgACTEBEmICJHb8nAMELBMgISZAQkyAhJgACTEBEmICJMQESLgeFEhYJkBCTICEmACJnde3JsCdZQIkxARIiAmQEBMgISZAQkyAhJgACTEBEmICJMQESLjqAkhYJkBCTIDE+pQDFCwTICEmQEJMgISYAAkxARIOrQEJywRIuNEPSFgmQEJMgITj9EDCMgESYgIknDMBEpYJkBATICEmQEJMgISYAAkxARI7r5+GgTvLBEiICZAQEyAhJkBCTICEmAAJMQESXkEAJCwTICEmQEJMgIS30wMJywRIuB4USFgmQMI5EyBhmQAJMQESYgIkxARIOLQGJCwTICEmQMI5EyBhmQAJMQESYgIkxARIiAmQEBMgISZAwjkTIGGZAAl/9AMSlgmQEBMgISZAQkyAhJgAdzPzB/WaHYvYTZ2jAAAAAElFTkSuQmCC"/>
+  </g>
+  <g id="Navigation">
+    <g id="Divider-3" data-name="Divider">
+      <path class="cls-37" d="M-789-2806.78v-0.76h276v0.76H-789Z"/>
+      <path id="Shape_11_copy" data-name="Shape 11 copy" class="cls-37" d="M-789-2745.11v-0.76h276v0.76H-789Z"/>
+      <path id="Shape_11_copy_2" data-name="Shape 11 copy 2" class="cls-37" d="M-789-2683.44v-0.76h276v0.76H-789Z"/>
+      <path id="Shape_11_copy_3" data-name="Shape 11 copy 3" class="cls-37" d="M-789-2621.01v-0.76h276v0.76H-789Z"/>
+      <path id="Shape_11_copy_4" data-name="Shape 11 copy 4" class="cls-37" d="M-789-2559.34v-0.76h276v0.76H-789Z"/>
+      <path id="Shape_11_copy_5" data-name="Shape 11 copy 5" class="cls-37" d="M-789-2497.67v-0.76h276v0.76H-789Z"/>
+      <path id="Shape_11_copy_6" data-name="Shape 11 copy 6" class="cls-37" d="M-789-2436v-0.76h276v0.76H-789Z"/>
+      <path id="Shape_11_copy_7" data-name="Shape 11 copy 7" class="cls-37" d="M-788.254-2868.24V-2869H-513v0.76H-788.254Z"/>
+    </g>
+    <path id="Rectangle_50_copy_3" data-name="Rectangle 50 copy 3" class="cls-38" d="M-737.592-3054.87l15.456,15.46-1.407,1.41L-739-3053.47Zm14.2-.13-15.318,15.33,1.394,1.4L-722-3053.6Z"/>
+  </g>
+  <g id="Name">
+    <text id="Ui_ux_Expert" data-name="Ui/ux Expert" class="cls-39" x="-708.998" y="-2887.002"><tspan x="-708.998"><tspan class="cls-24">Ui/ux</tspan> Expert</tspan></text>
+  </g>
+  <path id="Section_Separator-2" data-name="Section_Separator" class="cls-33" d="M-418-2028v-1H352v1H-418Z"/>
+  <path id="Section_Separator_copy" data-name="Section_Separator copy" class="cls-33" d="M-418-1328v-1H352v1H-418Z"/>
+  <path id="Section_Separator_copy_2" data-name="Section_Separator copy 2" class="cls-33" d="M-418,262v-1H352v1H-418Z"/>
+</svg>

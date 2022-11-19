@@ -1,0 +1,37 @@
+@-ms-viewport{width: device-width;}
+@-o-viewport{width: device-width;}
+@viewport{width: device-width;}
+#body, footer {/* width: 1920px; *//* margin:0 auto; *//* max-width: 1170px; */display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;/* align-items: center; */} 
+
+/* sbros stilei */
+* { -webkit-box-sizing: border-box; box-sizing: border-box;  -moz-box-sizing: border-box; border:0; margin:0; border:0; padding:0; letter-spacing:1px}
+#body *{}
+html, body, div, object, ifreine, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, addr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, ol, ul, li, fieldset, form, ladel, legent, table, caption, tbody, tfoot, thead, tr,  th, td, article, aside, canvas, details, embed, figure, figcapcion, footer,  header, hgroup, menu, var, output, ruby, time, mark, audio, video, select, input, textarea{margin:0; padding:0; border:0px; vertical-align:baseline; -webkit-box-sizing: content-box; box-sizing: content-box; -moz-sizing:content-box;  position: relative; vertical-align:top; font-family:'Raleway', sans-serif, 'Arial', 'sans-serif', 'Helvetica'; font-size: 12px;}
+
+form, input, button{ -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+button, input[type='submit'], input[type='button'], input[type='reset'], a {cursor:pointer;}
+
+div, article, aside, details, figcapcion, figure, header, hgroup, menu, nav, section, li{display:block; }
+body{line-height:1.2; width:100%; position: static;}
+
+table{border-collapse:collapse; border-spacing:0;}
+ol{padding-left:0; list-style: decimal;}
+ul{padding-left:0; list-style: square;}
+
+blockquote,q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after{content: ''; content:none;}
+
+ul li{list-style-type: none;}
+*{zoom:1}
+
+
+h1{font-size:48px; font-weight: 500;}
+h2{font-size:32px;font-weight: 500;}
+h3{font-size:18px;font-weight: 500;}
+h4{font-size:16px;font-weight: 500;}
+h5{font-size:14px;font-weight: 500;}
+
+#contant li{padding: 0 10px 20px 20px;}
+
+ 

@@ -1,0 +1,19 @@
+/* The sidbar style - start */
+#sidbar > div > img{ position:absolute; left:0; top:1px; z-index:1;}
+#sidbar > div > h2, #sidbar > div > h4 {z-index:3;}
+#sidbar > div > div:nth-of-type(1){z-index:3;}
+/* The sidbar style - end */
+
+/* The header style - start */
+header {background: url(/img/header-background.png) no-repeat;background-position: 0px 0px;background-size: auto auto;}
+/* The header style - end */
+
+/* The main style - start */
+.main {position:relative;padding: 71px 0 0 0;}
+/* .main main section{display:block;max-height:initial;max-width:740px;z-index:2;float: none;clear: both;top: 36px;left: 95px;height: auto;width: auto;margin: 0 auto;padding:initial;} */
+main > div:nth-child(1){padding: 0 0 0 10px;min-width: 310px;width: 100%;max-width: 390px;max-height: 346px;}
+main > div h2{font-size: 32px;letter-spacing: -0.5px;}
+
+.tap {display: flex; flex-direction:column; background: red;}
+
+/* The header style - end */
