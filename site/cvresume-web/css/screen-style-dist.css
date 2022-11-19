@@ -52,18 +52,21 @@
    #sidbar .sidbar_mobile__noactive ul,
    #sidbar .sidbar_mobile__noactive ul li{ display: none; }
 
-   #sidbar > div h2,
-   #sidbar > div h4{ z-index: 3px; display: block; left: auto; left: initial; position: static; position: initial;}
+  #sidbar > div h2,
+  #sidbar > div h4{ z-index: 3px; display: block; left: auto; left: initial; position: static; position: initial;}
 
-   header{ display: block; padding: 10px; }
+  header{ display: block; padding: 10px; }
 
 	header h1{ font-size: 28px; }
-   footer > div > * { text-align: center; }
+  footer > div > * { text-align: center; }
 
   footer > div > p{ max-width: 320px; left: auto; left: initial; display: inline; }
 }
-
 @media screen and (max-width: 400px) {
+	body > div{margin-right: 0;}
+	header{padding-left: 0; padding-right: 0;}
+
+	.main main section{padding-left:0;}
 	main section:nth-of-type(2) > div:nth-of-type(1) ul li:after,
 	main section:nth-of-type(3) > div:nth-of-type(1) ul li:after,
 	main section:nth-of-type(2) > div:nth-of-type(2) ul li:after,
@@ -72,4 +75,18 @@
 	main section:nth-of-type(3) > div:nth-of-type(2) ul li:before,
 	main section:nth-of-type(2) > div:nth-of-type(1) ul li:before,
 	main section:nth-of-type(3) > div:nth-of-type(1) ul li:before{ display: none; }
+
+	main section:nth-of-type(2) > div ul, main section:nth-of-type(3) > div ul,
+	main section:nth-of-type(2) > div ul li, main section:nth-of-type(3) > div ul li{
+		max-width: 285px;	}
+
+
+	main section:nth-of-type(2) > div:nth-of-type(1) ul li:after div,
+	main section:nth-of-type(3) > div:nth-of-type(1) ul li:after div,
+	main section:nth-of-type(2) > div:nth-of-type(2) ul li:after div,
+	main section:nth-of-type(3) > div:nth-of-type(2) ul li:after div,
+	main section:nth-of-type(2) > div:nth-of-type(2) ul li:before div,
+	main section:nth-of-type(3) > div:nth-of-type(2) ul li:before div,
+	main section:nth-of-type(2) > div:nth-of-type(1) ul li:before div,
+	main section:nth-of-type(3) > div:nth-of-type(1) ul li:before div{max-width: 318px;}
 }
