@@ -1,13 +1,13 @@
 **/.idea
+**/.git
 **/resta
+
 **/prepros.config
 **/prepros.config
 **/simply_file.css
 
 **/#source
-**/.idea
-**/.git
-
+**/img/*
 **/style.css
 **/*.json
 **/*.txt
