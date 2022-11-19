@@ -6,7 +6,7 @@
 
 }
 @media screen and (max-width:1152px){
-	body > div{ padding-bottom: initial;}
+	body > div{ padding-bottom: 0; padding-bottom: initial;}
 
 	main section:first-of-type{max-height:inherit;}
 	main section:first-of-type > div:nth-child(1), main section:first-of-type > div:nth-child(2),
@@ -15,14 +15,15 @@
 	main section:first-of-type > div:nth-child(1) {display: inherit;/* left: 0; */}
 
 
-	.main main section{ display:inline-block; float:none; clear:both; margin: 0 auto 10px auto; height: intial;  min-width:410px;}
+	.main main section{ display:inline-block; float:none; clear:both; margin: 0 auto 10px auto; height: intial;
+	min-width:320px;}
 	main section:nth-of-type(2) > div, main section:nth-of-type(2) > h2, main section:last-of-type > div > div:last-of-type { /*margin:0 auto; */ right: auto; float:none; clear:both; }
-	main section > h2, main section:nth-of-type(4) h2 { width: 300px; max-width: initial; display: block; margin: 0 auto; float: none; clear: both;}
+	main section > h2, main section:nth-of-type(4) h2 { width: 300px; max-width: none; max-width: initial; display: block; margin: 0 auto; float: none; clear: both;}
 	main section:last-of-type > div > div:last-of-type{/* display:block; */}
 
 	main section > div {margin: 0 auto 20px auto;left: 0; margin-left: 0;right: 0;display: block; }
 
-	main section:last-of-type > div { display: block; float: none; clear: both; left: initial; width:auto; }
+	main section:last-of-type > div { display: block; float: none; clear: both; left: auto; left: initial; width:auto; }
 	main section:last-of-type > div > div, main section:nth-of-type(3) > div:first-of-type, main section:nth-of-type(3) > div{display: block;margin: 0 auto;float: none;clear: both; margin-bottom:10px;}
 	main section:last-of-type > div > div:first-of-type{margin-bottom:10px;height: 313px;}
 
@@ -39,9 +40,36 @@
 	main section:first-child > div:nth-child(1), main section:first-child > div:nth-child(2), main section:nth-of-type(4) > .dataSkills, main section:nth-of-type(4) > .dataSkills + .dataSkills{float: none; margin: 0 auto 10px auto; clear: both; display: block; }
 	main section:nth-of-type(4) > .dataSkills{ max-width: 364px;}
 
-	footer{ position: initial;}
+	footer{ position: static; position: initial;}
 
 
 }
+@media screen and (max-width: 680px){
+   #sidbar{ float: none; display: block; width: inherit; }
+	#sidbar > div { text-align: center; min-height: 0; min-height: initial; padding: 20px 0; }
+	#sidbar > div div{position: absolute; left: 5px; top: 5px; z-index: 5px;}
 
+   #sidbar .sidbar_mobile__noactive ul,
+   #sidbar .sidbar_mobile__noactive ul li{ display: none; }
 
+   #sidbar > div h2,
+   #sidbar > div h4{ z-index: 3px; display: block; left: auto; left: initial; position: static; position: initial;}
+
+   header{ display: block; padding: 10px; }
+
+	header h1{ font-size: 28px; }
+   footer > div > * { text-align: center; }
+
+  footer > div > p{ max-width: 320px; left: auto; left: initial; display: inline; }
+}
+
+@media screen and (max-width: 400px) {
+	main section:nth-of-type(2) > div:nth-of-type(1) ul li:after,
+	main section:nth-of-type(3) > div:nth-of-type(1) ul li:after,
+	main section:nth-of-type(2) > div:nth-of-type(2) ul li:after,
+	main section:nth-of-type(3) > div:nth-of-type(2) ul li:after,
+	main section:nth-of-type(2) > div:nth-of-type(2) ul li:before,
+	main section:nth-of-type(3) > div:nth-of-type(2) ul li:before,
+	main section:nth-of-type(2) > div:nth-of-type(1) ul li:before,
+	main section:nth-of-type(3) > div:nth-of-type(1) ul li:before{ display: none; }
+}

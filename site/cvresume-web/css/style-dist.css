@@ -104,7 +104,8 @@ main section:last-of-type > div h2{font-size:22px;word-spacing:-4px;margin-botto
 .Leave-group > div:first-of-type {margin-bottom: 19px;}
 .Leave-group > div:first-of-type > input {height: 33px;}
 .Leave-group > div:last-of-type{ position: relative; height: 35px; margin-bottom: 0; margin-bottom: initial; }
-.Leave-group > div:last-of-type input{ text-align: center; width: 90px; float: right; background-color: #fb6470; padding:0;}
+.Leave-group > div:last-of-type input{ text-align: center; width: 90px; float: right; background-color: #fb6470;
+padding:0; color: #fff;}
 main section:last-of-type > div > div:last-of-type > div{float: right;width: 100%;max-width: 355px;margin-bottom: 56px;}
 main section:last-of-type > div > div:last-of-type > div:first-of-type{background: left url("/img/location.svg") no-repeat, url("/img/location.png") no-repeat;background-size: 32px 32px;background-position: 4px;}
 main section:last-of-type > div > div:last-of-type > div:nth-of-type(2){background: left url("/img/email.svg") no-repeat, url("/img/email.png") no-repeat;background-size: 32px 32px;background-position: 4px;}

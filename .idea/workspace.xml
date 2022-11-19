@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53038dfb-a46b-43ed-90f2-db5f618aecc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/css/css_pagination/animation.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/css/css_pagination/fontello-codes.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/css/css_pagination/fontello-embedded.css" afterDir="false" />
@@ -67,66 +57,9 @@
       <change afterPath="$PROJECT_DIR$/resta/js/jqPagination-master/js/scripts.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/js/js-dist.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/ИМ_шаров_last.fig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simply_file.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/Main_File/Resume_Home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/Main_File/Resume_Home.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/Main_File/Resume_Home_V2.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/Main_File/Resume_Portfolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/Main_File/Resume_Portfolio.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/Main_File/Resume_Single_Portfolio.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/css/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/css/ie-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/css/nulstyle-dist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/css/portfolio-style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/css/screen-style-dist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/css/style-dist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/Raleway-Italic-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/Raleway-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/font/Raleway/static/Raleway-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/.psd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/foto-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/foto-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/foto-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/foto-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/foto-05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/foto-06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/foto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/header-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/skape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/skape.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/twiter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/twiter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/world.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/img/world.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/portfolio_group/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/cvresume-web/scss/portfolio-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resta" beforeDir="false" afterPath="$PROJECT_DIR$/resta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resta/category/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/category/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/resta/category/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/css/aside.css" beforeDir="false" afterPath="$PROJECT_DIR$/resta/css/aside.css" afterDir="false" />
@@ -139,6 +72,10 @@
       <change beforePath="$PROJECT_DIR$/resta/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/aside.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/scss/main_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/main_category.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/site/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/cvresume-web/css/screen-style-dist.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/cvresume-web/css/screen-style-dist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/cvresume-web/css/style-dist.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/cvresume-web/css/style-dist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/cvresume-web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/cvresume-web/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
