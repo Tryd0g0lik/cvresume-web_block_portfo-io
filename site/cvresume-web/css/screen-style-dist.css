@@ -50,7 +50,7 @@
 	height: 35px; width: 35px; top: 0; left:0; padding: 0;}  /*  this's class of js  */
 	#sidbar > div { text-align: center; min-height: 0; min-height: initial; padding: 20px 0; }
 	#sidbar > div div{display: inline-block; position: absolute; left: 5px; top: 5px; z-index: 5; }
-
+	#sidbar > div div.sidbar_mobile__chengeColor{background-color: #fb6470;}
    #sidbar .sidbar_mobile__noactive ul,
    #sidbar .sidbar_mobile__noactive ul li{ display: none; }
 

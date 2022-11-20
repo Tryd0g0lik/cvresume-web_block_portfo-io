@@ -8,7 +8,7 @@ aside, header, .main {display: table-cell;}
 /* THe sidbar-style - start */
 #sidbar{width: 274px;height:inherit;float: none;clear:both;}
 #sidbar > div {background-color:  #2e3b4b;background: -webkit-gradient(linear, left top, left bottom, from(#2e3b4b), to(#08090b));background: linear-gradient(to bottom, #2e3b4b, #08090b);min-height:219px;position: relative; /* background: no-repeat umg='/img/foto.png';*/}
-#sidbar > div > div{display: none; background-color:#fb6470;width:18px;height:18px;left: 46px;top: 33px;
+#sidbar > div > div{display: none; background-color:#09e712;width:18px;height:18px;left: 46px;top: 33px;
 -webkit-clip-path:
 polygon
 (0px 1px, 1px 0px, 10.1px 8px, 17px 0px, 15px 1px, 19px 0px, 11px 9px, 18px 18px, 16px 18px, 10px 11px,2px 18px, 0px 18px, 9px 9px);clip-path: polygon(0px 1px, 1px 0px, 10.1px 8px, 17px 0px, 15px 1px, 19px 0px, 11px 9px, 18px 18px, 16px 18px, 10px 11px,2px 18px, 0px 18px, 9px 9px);}
