@@ -1,5 +1,23 @@
+/* zero style - start */
+/* line 5, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+main section div.portfolio_preview {
+  margin-top: 65px;
+}
+
+/* line 8, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.main.portfolio section:first-child > div:nth-child(2) {
+  background: none;
+}
+
+/* line 9, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+main section:last-of-type > div {
+  padding: initial;
+  margin: initial;
+}
+
+/* zero style - end */
 /* The sidbar style - start */
-/* line 4, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 14, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 #sidbar > div > img {
   position: absolute;
   left: 0;
@@ -7,19 +25,19 @@
   z-index: 1;
 }
 
-/* line 5, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 15, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 #sidbar > div > h2, #sidbar > div > h4 {
   z-index: 3;
 }
 
-/* line 6, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 16, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 #sidbar > div > div:nth-of-type(1) {
   z-index: 3;
 }
 
 /* The sidbar style - end */
 /* The header style - start */
-/* line 10, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 21, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 header {
   background: url(/img/header-background.png) no-repeat;
   background-position: 0px 0px;
@@ -28,26 +46,26 @@ header {
 
 /* The header style - end */
 /* The main style - start */
-/* line 14, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 26, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .main {
   position: relative;
   padding: 71px 0 0 0;
 }
 
-/* line 16, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 28, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 main > div:nth-child(1) {
   padding: 0 0 0 10px;
   min-width: 310px;
   width: 100%;
 }
 
-/* line 17, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 29, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 main > div h2 {
   font-size: 32px;
   letter-spacing: -0.5px;
 }
 
-/* line 19, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 31, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .tap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,7 +79,7 @@ main > div h2 {
 
 /* The header style - end */
 /* The block portfolio style - biginning */
-/* line 24, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 37, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_title {
   text-align: left;
   padding-left: 114px;
@@ -69,7 +87,7 @@ main > div h2 {
   position: relative;
 }
 
-/* line 26, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 39, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_title ::after {
   display: block;
   content: "";
@@ -82,7 +100,7 @@ main > div h2 {
 }
 
 /* --the block main menu portfolio - start */
-/* line 33, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 46, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_menu,
 .portfolio_content__activity {
   width: 100%;
@@ -93,7 +111,7 @@ main > div h2 {
   padding-left: 2.66%;
 }
 
-/* line 41, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 54, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_menu {
   -ms-grid-columns: 1fr 0 1fr 0 1fr 0 1fr;
   grid-template-columns: repeat(4, 1fr);
@@ -119,23 +137,23 @@ main > div h2 {
   -ms-grid-column: 7;
 }
 
-/* line 48, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 61, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .grid-1 {
   text-align: left;
 }
 
-/* line 51, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 64, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .grid-4 {
   text-align: right;
 }
 
-/* line 54, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 67, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_tabName__activity {
   position: relative;
   z-index: 1;
 }
 
-/* line 58, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 71, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_tabName__activity::after {
   content: "";
   display: inline-block;
@@ -149,12 +167,12 @@ main > div h2 {
   z-index: 2;
 }
 
-/* line 70, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 83, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 div.grid-1.portfolio_tabName__activity::after {
   left: -15px;
 }
 
-/* line 74, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 87, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 div.grid-4.portfolio_tabName__activity::after {
   margin: 0;
   right: -20px;
@@ -163,18 +181,76 @@ div.grid-4.portfolio_tabName__activity::after {
 
 /* --the block main menu portfolio - end */
 /* --the block is content portfolio - start */
-/* line 83, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 96, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content {
   width: inherit;
 }
 
-/* line 87, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 99, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content .portfolio_prodjectHeader {
+  display: block;
+  height: 129px;
+  padding: 13px 0 0 18px;
+}
+
+/* line 104, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content .portfolio_prodjectHeader h3 {
+  font-size: calc(100% + 9.8px);
+  display: block;
+  width: 100%;
+  float: none;
+  clear: both;
+  color: #fff;
+}
+
+/* line 112, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content .portfolio_prodjectHeader h4 {
+  display: block;
+  float: none;
+  clear: both;
+  line-height: 2.3;
+  margin-bottom: 14px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* line 121, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content .portfolio_prodjectHeader a {
+  float: none;
+  clear: both;
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  opacity: 0.8;
+  letter-spacing: 1.4px;
+  font-size: calc(100% + 1px);
+  text-decoration: none;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
+}
+
+/* line 136, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content .portfolio_prodjectHeader a::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+  right: -12px;
+  background: url(/site/cvresume-web/img/portfolio_a.png) no-repeat 0 0;
+  z-index: 10;
+}
+
+/* line 154, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content__activity {
   display: block;
   padding-left: 10px;
+  padding-top: 66px;
 }
 
-/* line 91, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 159, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content__activity > ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,15 +269,18 @@ div.grid-4.portfolio_tabName__activity::after {
           align-items: stretch;
 }
 
-/* line 98, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 166, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content__activity > ul li {
   display: inline-block;
   width: 100%;
-  max-width: 360px;
+  max-width: 359px;
+  height: 352px;
+  margin-bottom: 19px;
 }
 
-/* line 108, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
-.portfolio_content__activity .portfolio_prodject section {
+/* line 176, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content__activity li.portfolio_prodject section {
+  display: inline-block;
   padding: 0;
   min-height: initial;
   background: none;
@@ -210,19 +289,61 @@ div.grid-4.portfolio_tabName__activity::after {
   max-width: initial;
 }
 
-/* line 116, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
-.portfolio_content__activity .portfolio_prodject section .portfolio_preview {
+/* line 186, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content__activity li.portfolio_prodject section .portfolio_preview {
   padding: 0;
+  float: none;
+  max-width: 362px;
 }
 
-/* line 121, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
-.portfolio_content__activity .portfolio_prodject section .portfolio_prodjectHeader {
+/* line 192, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content__activity li.portfolio_prodject section div.portfolio_prodjectHeader {
   float: none;
   background: none;
-  max-width: initial;
+  max-width: 360px;
   max-height: initial;
-  display: initial;
-  background-color: none;
+  height: 129px;
+  display: block;
+}
+
+/* line 207, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+main .portfolio_content__activity li.portfolio_prodject section:first-child div.portfolio_prodjectHeader {
+  background-color: #1e2e3e;
+}
+
+/* line 214, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+main .portfolio_content__activity li.portfolio_prodject:first-child section:first-child div.portfolio_prodjectHeader {
+  background-color: #00cccc;
+}
+
+/* line 221, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+main .portfolio_content__activity li.portfolio_prodject:nth-child(3) section:first-child div.portfolio_prodjectHeader {
+  background-color: #333333;
+}
+
+/* line 228, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+main .portfolio_content__activity li.portfolio_prodject:nth-child(4) section:first-child div.portfolio_prodjectHeader {
+  background-color: #0099cc;
+}
+
+/* line 235, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+main .portfolio_content__activity li.portfolio_prodject:nth-child(5) section:first-child div.portfolio_prodjectHeader {
+  background-color: #333333;
+}
+
+/* line 242, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+main .portfolio_content__activity li.portfolio_prodject:nth-child(6) section:first-child div.portfolio_prodjectHeader {
+  background-color: #666699;
+}
+
+/* line 250, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_preview {
+  overflow: hidden;
+  min-width: 318px;
+  max-width: 360px;
+  height: auto;
+  max-height: 353px;
+  background: #fff;
 }
 
 /* --the block is content portfolio - end */

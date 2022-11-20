@@ -1,4 +1,14 @@
 $primary-color: #fb6470;
+$primary-color-white: #fff;
+
+/* zero style - start */
+main section div.portfolio_preview{
+	margin-top: 65px;
+}
+.main.portfolio section:first-child > div:nth-child(2){ background: none;}
+main section:last-of-type > div{ padding: initial; margin: initial;}
+/* zero style - end */
+
 
 /* The sidbar style - start */
 #sidbar > div > img{ position:absolute; left:0; top:1px; z-index:1;}
@@ -6,9 +16,11 @@ $primary-color: #fb6470;
 #sidbar > div > div:nth-of-type(1){z-index:3;}
 /* The sidbar style - end */
 
+
 /* The header style - start */
 header {background: url(/img/header-background.png) no-repeat;background-position: 0px 0px;background-size: auto auto;}
 /* The header style - end */
+
 
 /* The main style - start */
 .main {position:relative;padding: 71px 0 0 0;}
@@ -19,6 +31,7 @@ main > div h2{font-size: 32px;letter-spacing: -0.5px;}
 .tap {display: flex; flex-direction:column; background: red;}
 
 /* The header style - end */
+
 
 /* The block portfolio style - biginning */
 .portfolio_title {
@@ -82,11 +95,66 @@ div.grid-4.portfolio_tabName__activity::after{
 /* --the block is content portfolio - start */
 .portfolio_content{
 	width: inherit;
+
+	.portfolio_prodjectHeader{
+		 display: block;
+	    height: 129px;
+	    padding: 13px 0 0 18px;
+
+		h3 {
+			font-size: calc(100% + 9.8px);
+			display: block;
+			width: 100%;
+			float: none;
+			clear: both;
+			color: #fff;
+		}
+		h4{
+			display: block;
+			float: none;
+			clear: both;
+			line-height: 2.3;
+			margin-bottom: 14px;
+			color: #fff;
+			opacity: 0.8;
+		}
+		a{
+			float: none;
+			clear: both;
+			display: inline-block;
+			position: relative;
+			color: #fff;
+			opacity: 0.8;
+			letter-spacing: 1.4px;
+			font-size: calc(100% + 1px;);
+			text-decoration: none;
+			border: 0;
+			border-bottom: 1px solid #fff;
+			padding-bottom: 3px;
+
+		}
+		a::after{
+				content: "";
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+
+				position: absolute;
+				bottom: 0;
+				right: -12px;
+
+				background: url(/site/cvresume-web/img/portfolio_a.png) no-repeat 0 0;
+				z-index: 10;
+			}
+
+
+	}
 }
 
 .portfolio_content__activity {
 	display: block;
 	padding-left:  10px;
+	padding-top: 66px;
 
 	>ul{
 	    display: flex;
@@ -98,14 +166,15 @@ div.grid-4.portfolio_tabName__activity::after{
 	    li{
 	      display: inline-block;
 	      width: 100%;
-	      max-width: 360px;
-
-
+	      max-width: 359px;
+			height: 352px;
+			margin-bottom: 19px;
        }
 
 	}
 
-	.portfolio_prodject section{
+	li.portfolio_prodject section{
+		display: inline-block;
 		padding: 0;
 		min-height: initial;
 		background: none;
@@ -113,29 +182,83 @@ div.grid-4.portfolio_tabName__activity::after{
 		max-width: initial;
 		max-width: initial;
 
+
 		.portfolio_preview{
 			padding: 0;
-
+			float: none;
+			max-width: 362px;
 		}
 
-		.portfolio_prodjectHeader{
+		div.portfolio_prodjectHeader{
 			float: none;
 			background: none;
-			max-width: initial;
+	      max-width: 360px;
 			max-height: initial;
-			display: initial;
-			background-color: none;
+		   height: 129px;
+         display: block;
+
 		}
 	}
+}
 
-
+main .portfolio_content__activity {
+	li.portfolio_prodject {
+		section:first-child {
+			div.portfolio_prodjectHeader{
+				background-color: #1e2e3e;
+			}
+		}
+	}
+	li.portfolio_prodject:first-child {
+		section:first-child {
+			div.portfolio_prodjectHeader{
+				background-color: #00cccc;
+			}
+		}
+	}
+	li.portfolio_prodject:nth-child(3) {
+		section:first-child {
+			div.portfolio_prodjectHeader{
+				background-color: #333333;
+			}
+		}
+	}
+	li.portfolio_prodject:nth-child(4) {
+		section:first-child {
+			div.portfolio_prodjectHeader{
+				background-color: #0099cc;
+			}
+		}
+	}
+	li.portfolio_prodject:nth-child(5) {
+		section:first-child {
+			div.portfolio_prodjectHeader{
+				background-color: #333333;
+			}
+		}
+	}
+	li.portfolio_prodject:nth-child(6) {
+		section:first-child {
+			div.portfolio_prodjectHeader{
+				background-color: #666699;
+			}
+		}
+	}
 
 }
 
 .portfolio_preview{
-
+	overflow: hidden;
+	min-width: 318px;
+	max-width: 360px;
+	height: auto;
+	max-height: 353px;
+	background: #fff;
 
 }
+
+
+
 
 /* --the block is content portfolio - end */
 
