@@ -4,6 +4,7 @@
 **/prepros.config
 **/prepros.config
 **/simply_file.css
+**/*.css.map
 
 **/#source
 **/img/*
