@@ -29,12 +29,16 @@ main > div h2{font-size: 32px;letter-spacing: -0.5px;}
 	}
 }
 
-.portfolio_menu{
+/* --the block main menu portfolio - start */
+.portfolio_menu,
+.portfolio_content__activity {
 	width: 100%;
 	max-width: 750px;
 	margin: 0 auto;
 	display: inline-grid;
 	padding-left: 2.66%;
+}
+.portfolio_menu{
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 34px;
 	gap: 0;
@@ -72,7 +76,68 @@ div.grid-4.portfolio_tabName__activity::after{
   right: -20px;
   left: unset;
 }
+/* --the block main menu portfolio - end */
 
+
+/* --the block is content portfolio - start */
+.portfolio_content{
+	width: inherit;
+}
+
+.portfolio_content__activity {
+	display: block;
+	padding-left:  10px;
+
+	>ul{
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	    align-items: stretch;
+
+	    li{
+	      display: inline-block;
+	      width: 100%;
+	      max-width: 360px;
+
+
+       }
+
+	}
+
+	.portfolio_prodject section{
+		padding: 0;
+		min-height: initial;
+		background: none;
+		width: 100%;
+		max-width: initial;
+		max-width: initial;
+
+		.portfolio_preview{
+			padding: 0;
+
+		}
+
+		.portfolio_prodjectHeader{
+			float: none;
+			background: none;
+			max-width: initial;
+			max-height: initial;
+			display: initial;
+			background-color: none;
+		}
+	}
+
+
+
+}
+
+.portfolio_preview{
+
+
+}
+
+/* --the block is content portfolio - end */
 
 
 

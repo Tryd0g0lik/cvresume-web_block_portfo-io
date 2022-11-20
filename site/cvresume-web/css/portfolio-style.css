@@ -81,14 +81,20 @@ main > div h2 {
   left: 2px;
 }
 
-/* line 32, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
-.portfolio_menu {
+/* --the block main menu portfolio - start */
+/* line 33, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_menu,
+.portfolio_content__activity {
   width: 100%;
   max-width: 750px;
   margin: 0 auto;
   display: -ms-inline-grid;
   display: inline-grid;
   padding-left: 2.66%;
+}
+
+/* line 41, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_menu {
   -ms-grid-columns: 1fr 0 1fr 0 1fr 0 1fr;
   grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: 34px;
@@ -113,23 +119,23 @@ main > div h2 {
   -ms-grid-column: 7;
 }
 
-/* line 44, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 48, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .grid-1 {
   text-align: left;
 }
 
-/* line 47, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 51, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .grid-4 {
   text-align: right;
 }
 
-/* line 50, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 54, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_tabName__activity {
   position: relative;
   z-index: 1;
 }
 
-/* line 54, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 58, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_tabName__activity::after {
   content: "";
   display: inline-block;
@@ -143,16 +149,81 @@ main > div h2 {
   z-index: 2;
 }
 
-/* line 66, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 70, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 div.grid-1.portfolio_tabName__activity::after {
   left: -15px;
 }
 
-/* line 70, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 74, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 div.grid-4.portfolio_tabName__activity::after {
   margin: 0;
   right: -20px;
   left: unset;
 }
 
+/* --the block main menu portfolio - end */
+/* --the block is content portfolio - start */
+/* line 83, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content {
+  width: inherit;
+}
+
+/* line 87, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content__activity {
+  display: block;
+  padding-left: 10px;
+}
+
+/* line 91, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content__activity > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+/* line 98, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content__activity > ul li {
+  display: inline-block;
+  width: 100%;
+  max-width: 360px;
+}
+
+/* line 108, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content__activity .portfolio_prodject section {
+  padding: 0;
+  min-height: initial;
+  background: none;
+  width: 100%;
+  max-width: initial;
+  max-width: initial;
+}
+
+/* line 116, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content__activity .portfolio_prodject section .portfolio_preview {
+  padding: 0;
+}
+
+/* line 121, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content__activity .portfolio_prodject section .portfolio_prodjectHeader {
+  float: none;
+  background: none;
+  max-width: initial;
+  max-height: initial;
+  display: initial;
+  background-color: none;
+}
+
+/* --the block is content portfolio - end */
 /* The block portfolio style - end */
