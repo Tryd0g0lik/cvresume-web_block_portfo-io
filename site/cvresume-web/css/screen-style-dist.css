@@ -46,21 +46,21 @@
 }
 @media screen and (max-width: 680px){
    #sidbar{ float: none; display: block; width: inherit; }
+	#sidbar div.menu{ display: inline-block; z-index: 10; background: none; position: absolute;
+	height: 35px; width: 35px; top: 0; left:0; padding: 0;}  /*  this's class of js  */
 	#sidbar > div { text-align: center; min-height: 0; min-height: initial; padding: 20px 0; }
-	#sidbar > div div{position: absolute; left: 5px; top: 5px; z-index: 5px;}
+	#sidbar > div div{display: inline-block; position: absolute; left: 5px; top: 5px; z-index: 5; }
 
    #sidbar .sidbar_mobile__noactive ul,
    #sidbar .sidbar_mobile__noactive ul li{ display: none; }
 
-  #sidbar > div h2,
-  #sidbar > div h4{ z-index: 3px; display: block; left: auto; left: initial; position: static; position: initial;}
+   #sidbar > div h2, #sidbar > div h4{ z-index: 3px; display: block; left: auto; left: initial; position: static; position: initial;}
 
-  header{ display: block; padding: 10px; }
-
+   header{ display: block; padding: 10px; }
 	header h1{ font-size: 28px; }
-  footer > div > * { text-align: center; }
 
-  footer > div > p{ max-width: 320px; left: auto; left: initial; display: inline; }
+   footer > div > * { text-align: center; }
+   footer > div > p{ max-width: 320px; left: auto; left: initial; display: inline; }
 }
 @media screen and (max-width: 400px) {
 	body > div{margin-right: 0;}

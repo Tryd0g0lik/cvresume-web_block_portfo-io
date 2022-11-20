@@ -57,6 +57,8 @@
       <change afterPath="$PROJECT_DIR$/resta/js/jqPagination-master/js/scripts.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/js/js-dist.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/ИМ_шаров_last.fig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/cvresume-web/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/cvresume-web/js/jquery-3.6.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta" beforeDir="false" afterPath="$PROJECT_DIR$/resta" afterDir="false" />
@@ -72,7 +74,10 @@
       <change beforePath="$PROJECT_DIR$/resta/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/aside.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/scss/main_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/main_category.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/cvresume-web/css/nulstyle-dist.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/cvresume-web/css/nulstyle-dist.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/cvresume-web/css/screen-style-dist.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/cvresume-web/css/screen-style-dist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/cvresume-web/css/style-dist.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/cvresume-web/css/style-dist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/cvresume-web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/cvresume-web/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,5 +115,16 @@
       <updated>1668806290584</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
