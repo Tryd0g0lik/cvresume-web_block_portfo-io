@@ -1,3 +1,5 @@
+$primary-color: #fb6470;
+
 /* The sidbar style - start */
 #sidbar > div > img{ position:absolute; left:0; top:1px; z-index:1;}
 #sidbar > div > h2, #sidbar > div > h4 {z-index:3;}
@@ -10,10 +12,71 @@ header {background: url(/img/header-background.png) no-repeat;background-positio
 
 /* The main style - start */
 .main {position:relative;padding: 71px 0 0 0;}
-/* .main main section{display:block;max-height:initial;max-width:740px;z-index:2;float: none;clear: both;top: 36px;left: 95px;height: auto;width: auto;margin: 0 auto;padding:initial;} */
-main > div:nth-child(1){padding: 0 0 0 10px;min-width: 310px;width: 100%;max-width: 390px;max-height: 346px;}
+
+main > div:nth-child(1){padding: 0 0 0 10px;min-width: 310px; width: 100%;}
 main > div h2{font-size: 32px;letter-spacing: -0.5px;}
 
 .tap {display: flex; flex-direction:column; background: red;}
 
 /* The header style - end */
+
+/* The block portfolio style - biginning */
+.portfolio_title {
+	text-align: left; padding-left: 114px; margin-bottom: 55px; position: relative;
+	::after{
+		display: block; content: ""; background: $primary-color; width: 76px; height: 2px;
+		position:   absolute; top: 51px; left: 2px;
+	}
+}
+
+.portfolio_menu{
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+	display: inline-grid;
+	padding-left: 2.66%;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 34px;
+	gap: 0;
+	justify-items: stretch;
+
+}
+.grid-1{
+	text-align: left;
+}
+.grid-4{
+	text-align: right;
+}
+.portfolio_tabName__activity{
+	position: relative;
+	z-index: 1;
+}
+.portfolio_tabName__activity::after{
+	content: "";
+	display: inline-block;
+	margin: 0;
+	left: 35px;
+	bottom: 2px;
+	width: 60%;
+	height: 2px;
+	background: $primary-color;
+	position: absolute;
+	z-index: 2;
+}
+div.grid-1.portfolio_tabName__activity::after{
+	left: -15px;
+}
+
+div.grid-4.portfolio_tabName__activity::after{
+	margin: 0;
+  right: -20px;
+  left: unset;
+}
+
+
+
+
+
+/* The block portfolio style - end */
+
+

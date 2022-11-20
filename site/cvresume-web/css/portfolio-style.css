@@ -1,0 +1,158 @@
+/* The sidbar style - start */
+/* line 4, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+#sidbar > div > img {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  z-index: 1;
+}
+
+/* line 5, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+#sidbar > div > h2, #sidbar > div > h4 {
+  z-index: 3;
+}
+
+/* line 6, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+#sidbar > div > div:nth-of-type(1) {
+  z-index: 3;
+}
+
+/* The sidbar style - end */
+/* The header style - start */
+/* line 10, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+header {
+  background: url(/img/header-background.png) no-repeat;
+  background-position: 0px 0px;
+  background-size: auto auto;
+}
+
+/* The header style - end */
+/* The main style - start */
+/* line 14, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.main {
+  position: relative;
+  padding: 71px 0 0 0;
+}
+
+/* line 16, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+main > div:nth-child(1) {
+  padding: 0 0 0 10px;
+  min-width: 310px;
+  width: 100%;
+}
+
+/* line 17, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+main > div h2 {
+  font-size: 32px;
+  letter-spacing: -0.5px;
+}
+
+/* line 19, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.tap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: red;
+}
+
+/* The header style - end */
+/* The block portfolio style - biginning */
+/* line 24, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_title {
+  text-align: left;
+  padding-left: 114px;
+  margin-bottom: 55px;
+  position: relative;
+}
+
+/* line 26, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_title ::after {
+  display: block;
+  content: "";
+  background: #fb6470;
+  width: 76px;
+  height: 2px;
+  position: absolute;
+  top: 51px;
+  left: 2px;
+}
+
+/* line 32, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_menu {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  padding-left: 2.66%;
+  -ms-grid-columns: 1fr 0 1fr 0 1fr 0 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: 34px;
+  grid-template-rows: 34px;
+  gap: 0;
+  justify-items: stretch;
+}
+.portfolio_menu > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.portfolio_menu > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.portfolio_menu > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.portfolio_menu > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+
+/* line 44, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.grid-1 {
+  text-align: left;
+}
+
+/* line 47, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.grid-4 {
+  text-align: right;
+}
+
+/* line 50, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_tabName__activity {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 54, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_tabName__activity::after {
+  content: "";
+  display: inline-block;
+  margin: 0;
+  left: 35px;
+  bottom: 2px;
+  width: 60%;
+  height: 2px;
+  background: #fb6470;
+  position: absolute;
+  z-index: 2;
+}
+
+/* line 66, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+div.grid-1.portfolio_tabName__activity::after {
+  left: -15px;
+}
+
+/* line 70, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+div.grid-4.portfolio_tabName__activity::after {
+  margin: 0;
+  right: -20px;
+  left: unset;
+}
+
+/* The block portfolio style - end */

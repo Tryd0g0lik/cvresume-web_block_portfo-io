@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53038dfb-a46b-43ed-90f2-db5f618aecc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/css/css_pagination/animation.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/css/css_pagination/fontello-codes.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/css/css_pagination/fontello-embedded.css" afterDir="false" />
@@ -58,7 +57,11 @@
       <change afterPath="$PROJECT_DIR$/resta/js/jqPagination-master/js/scripts.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/js/js-dist.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/ИМ_шаров_last.fig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/cvresume-web/Main_File/Resume_Home_54seo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/cvresume-web/css/portfolio-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta" beforeDir="false" afterPath="$PROJECT_DIR$/resta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resta/category/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/category/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/resta/category/main.php" afterDir="false" />
@@ -72,6 +75,10 @@
       <change beforePath="$PROJECT_DIR$/resta/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/aside.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/scss/main_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/main_category.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/site/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/cvresume-web/css/portfolio-style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/cvresume-web/portfolio_group/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/cvresume-web/portfolio_group/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/cvresume-web/scss/portfolio-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/site/cvresume-web/scss/portfolio-style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
