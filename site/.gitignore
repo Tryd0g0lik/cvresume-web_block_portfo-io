@@ -12,6 +12,12 @@
 **/*.json
 **/*.txt
 
+**/Main_File/*.psd
+**/Main_File/img/
+**/Main_File/Resume_Home_54seo.png
+**/Main_File/portfolio_a_.png
+
+
 **/css/nulstyle.css
 **/css/screen-style.css
 
