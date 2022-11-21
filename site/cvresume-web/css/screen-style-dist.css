@@ -49,6 +49,12 @@
 
 
 }
+@media screen and (max-width: 1024px){
+	.portfolio .portfolio_content__activity ul{
+      justify-content: center;
+   }
+
+}
 @media screen and (max-width: 835px){
 	.main_preview{display: none;}
    #sidbar{ float: none; display: block; width: inherit; }
@@ -67,7 +73,6 @@
 
    footer > div > * { text-align: center; }
    footer > div > p{ max-width: 320px; left: auto; left: initial; display: inline; }
-
 
 
    /* This's  'portfolio' page - start */
@@ -104,9 +109,6 @@
 		left: 0;
 	}
 
-   .portfolio .portfolio_content__activity ul{
-      justify-content: center;
-   }
 
    .portfolio_content .portfolio_contacts.contacts{
       flex-wrap: wrap;
