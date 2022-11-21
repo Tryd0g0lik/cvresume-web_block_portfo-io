@@ -94,6 +94,8 @@ div.grid-4.portfolio_tabName__activity::after{
 
 
 /* --the block is content portfolio - start */
+
+
 .portfolio_content{
 	width: inherit;
 
@@ -166,12 +168,13 @@ div.grid-4.portfolio_tabName__activity::after{
 	    display: flex;
 	    flex-direction: row;
 	    flex-wrap: wrap;
-	    justify-content: space-between;
+
+		 justify-content: flex-start;
 	    align-items: stretch;
 
 	    li{
 	      display: inline-block;
-	      width: 100%;
+	      min-width: 310px;
 	      max-width: 359px;
 			height: 352px;
 			margin-bottom: 19px;
@@ -193,6 +196,14 @@ div.grid-4.portfolio_tabName__activity::after{
 			padding: 0;
 			float: none;
 			max-width: 362px;
+
+		}
+
+		img{
+		min-width: 310px;
+		width: 100%;
+		max-width: 360px;
+		height: auto;
 		}
 
 		div.portfolio_prodjectHeader{
@@ -255,7 +266,7 @@ main .portfolio_content__activity {
 
 .portfolio_preview{
 	overflow: hidden;
-	min-width: 318px;
+	min-width: 310px;
 	max-width: 360px;
 	height: auto;
 	max-height: 353px;

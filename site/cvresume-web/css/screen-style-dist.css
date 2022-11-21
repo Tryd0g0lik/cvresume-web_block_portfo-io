@@ -16,7 +16,7 @@
 
 
 	.main main section{ display:inline-block; float:none; clear:both; margin: 0 auto 10px auto; height: intial;
-	min-width:320px;}
+	min-width:310px;}
 	main section:nth-of-type(2) > div, main section:nth-of-type(2) > h2, main section:last-of-type > div > div:last-of-type { /*margin:0 auto; */ right: auto; float:none; clear:both; }
 	main section > h2, main section:nth-of-type(4) h2 { width: 300px; max-width: none; max-width: initial; display: block; margin: 0 auto; float: none; clear: both;}
 	main section:last-of-type > div > div:last-of-type{/* display:block; */}
@@ -42,9 +42,15 @@
 
 	footer{ position: static; position: initial;}
 
+	/* This's  'portfolio' page - start */
+		.portfolio_menu div.grid-4.portfolio_tabName__activity::after{ right: 0;}
+
+	/* This's  'portfolio' page - and */
+
 
 }
-@media screen and (max-width: 680px){
+@media screen and (max-width: 835px){
+	.main_preview{display: none;}
    #sidbar{ float: none; display: block; width: inherit; }
 	#sidbar div.menu{ display: inline-block; z-index: 10; background: none; position: absolute;
 	height: 35px; width: 35px; top: 0; left:0; padding: 0;}  /*  this's class of js  */
@@ -61,7 +67,55 @@
 
    footer > div > * { text-align: center; }
    footer > div > p{ max-width: 320px; left: auto; left: initial; display: inline; }
+
+
+
+   /* This's  'portfolio' page - start */
+
+   .portfolio .portfolio_title,
+   .portfolio .portfolio_main,
+   .portfolio .portfolio_content__activity,
+    .portfolio  .portfolio_contacts.contacts{
+		padding-left: 0px;
+		width: calc(100% - 1px);
+
+	}
+	.portfolio .portfolio_title,
+	.portfolio_main .portfolio_menu{
+		padding-left: 5px;
+	}
+   .portfolio_main .portfolio_menu{
+      display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		column-gap: 0.54em;
+
+   }
+
+	.portfolio .portfolio_content {
+	  width: 100%;
+	}
+
+   .portfolio .portfolio_content__activity{
+       margin: 0;
+   }
+
+	.portfolio  div.grid-1.portfolio_tabName__activity::after{
+		left: 0;
+	}
+
+   .portfolio .portfolio_content__activity ul{
+      justify-content: center;
+   }
+
+   .portfolio_content .portfolio_contacts.contacts{
+      flex-wrap: wrap;
+      justify-content: center
+   }
+		/* This's  'portfolio' page - and */
 }
+/* This's  'portfolio' page - start */
+/* This's  'portfolio' page - and */
 @media screen and (max-width: 400px) {
 	body > div{margin-right: 0;}
 	header{padding-left: 0; padding-right: 0;}
