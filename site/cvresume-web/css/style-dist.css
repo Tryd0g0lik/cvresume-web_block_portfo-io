@@ -2,7 +2,7 @@
 
 body{ background-color:#353541; padding:0; margin:0;}
 body> div{    display: table;}
-body > div {max-width: 1225px;width: inherit;margin: 0 auto;position: relative;padding-bottom: 127px;}
+body > div {max-width: 1225px;width: inherit;margin: 0 auto;position: relative;padding-bottom: 121px;}
 aside, header, .main {display: table-cell;}
 /* The common body-style - End */
 /* THe sidbar-style - start */
