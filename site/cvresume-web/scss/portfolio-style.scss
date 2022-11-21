@@ -44,7 +44,8 @@ main > div h2{font-size: 32px;letter-spacing: -0.5px;}
 
 /* --the block main menu portfolio - start */
 .portfolio_menu,
-.portfolio_content__activity {
+.portfolio_content__activity,
+ .portfolio_contacts{
 	width: 100%;
 	max-width: 750px;
 	margin: 0 auto;
@@ -151,11 +152,16 @@ div.grid-4.portfolio_tabName__activity::after{
 	}
 }
 
-.portfolio_content__activity {
+.portfolio_content__activity,
+ .portfolio_contacts {
 	display: block;
 	padding-left:  10px;
 	padding-top: 66px;
-
+	}
+.portfolio_contacts{
+	padding-top: 63px;
+}
+.portfolio_content__activity{
 	>ul{
 	    display: flex;
 	    flex-direction: row;
@@ -257,14 +263,97 @@ main .portfolio_content__activity {
 
 }
 
-
-
-
 /* --the block is content portfolio - end */
 
 
+/* --the block is contains contacts data - beginning */
 
+/* ---lefr column - start */
+.portfolio_contacts.contacts {
+	width: 100%;
+	max-width: 750px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
 
-/* The block portfolio style - end */
+.contacts_forms,
+.contacts_adress{
+	min-width: 318px;width: 100%;max-width: 342px;
+}
+
+.contacts_forms{
+	border: 0;border-right: 1px solid #cccccc;text-align: left;
+	position: relative;
+	input,
+	textarea{
+		display: inline-block;
+		border: 1px solid #666666;
+		height: 35px;
+		width: 265px;
+		margin-bottom: 21px;
+		z-index: 3;
+	}
+	label{
+		display: inline-block;
+		position: absolute;
+		z-index: 5;
+		right: initial;
+		left: 14px;
+		top: 11px;
+		color: #666666;
+		font-size: calc(100% + 1px;)
+	}
+	textarea{
+		height: 95px;
+
+	}
+
+	input[type="submit"]{
+		display: inline-block;
+		width: 95px;
+		margin-left: 170px;
+		letter-spacing: 0.18em;
+
+	}
+
+}
+
+.contacts_formsTitle{
+	padding-left: 1px;
+	margin-bottom: 22px;
+	h3{
+		font-size: calc(100% + 8px);
+
+	}
+
+}
+/* ---left column - end */
+/* ---right column - start */
+.contacts_adressList {
+	display: block;
+	float: none;
+	clear: both;
+
+	text-align: left;
+	padding: 0;
+	padding-left: 78px;
+	padding-top: 8px;
+
+	.contacts_text,
+	.contacts_emai,
+	.contacts_phone{
+		margin: 0;
+		margin-bottom: 49px;
+		div{
+			margin: 0;
+			margin-bottom: 18px;
+		}
+	}
+}
+/* ---right column - end */
+
+/* --the block is contains contacts data - end */
 
 

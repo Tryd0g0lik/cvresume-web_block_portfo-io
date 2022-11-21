@@ -102,7 +102,8 @@ main > div h2 {
 /* --the block main menu portfolio - start */
 /* line 46, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_menu,
-.portfolio_content__activity {
+.portfolio_content__activity,
+.portfolio_contacts {
   width: 100%;
   max-width: 750px;
   margin: 0 auto;
@@ -111,7 +112,7 @@ main > div h2 {
   padding-left: 2.66%;
 }
 
-/* line 54, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 55, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_menu {
   -ms-grid-columns: 1fr 0 1fr 0 1fr 0 1fr;
   grid-template-columns: repeat(4, 1fr);
@@ -137,23 +138,23 @@ main > div h2 {
   -ms-grid-column: 7;
 }
 
-/* line 61, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 62, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .grid-1 {
   text-align: left;
 }
 
-/* line 64, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 65, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .grid-4 {
   text-align: right;
 }
 
-/* line 67, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 68, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_tabName__activity {
   position: relative;
   z-index: 1;
 }
 
-/* line 71, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 72, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_tabName__activity::after {
   content: "";
   display: inline-block;
@@ -167,12 +168,12 @@ main > div h2 {
   z-index: 2;
 }
 
-/* line 83, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 84, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 div.grid-1.portfolio_tabName__activity::after {
   left: -15px;
 }
 
-/* line 87, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 88, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 div.grid-4.portfolio_tabName__activity::after {
   margin: 0;
   right: -20px;
@@ -181,19 +182,19 @@ div.grid-4.portfolio_tabName__activity::after {
 
 /* --the block main menu portfolio - end */
 /* --the block is content portfolio - start */
-/* line 96, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 97, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content {
   width: inherit;
 }
 
-/* line 99, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 100, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content .portfolio_prodjectHeader {
   display: block;
   height: 129px;
   padding: 13px 0 0 18px;
 }
 
-/* line 104, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 105, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content .portfolio_prodjectHeader h3 {
   font-size: calc(100% + 9.8px);
   display: block;
@@ -203,7 +204,7 @@ div.grid-4.portfolio_tabName__activity::after {
   color: #fff;
 }
 
-/* line 112, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 113, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content .portfolio_prodjectHeader h4 {
   display: block;
   float: none;
@@ -214,7 +215,7 @@ div.grid-4.portfolio_tabName__activity::after {
   opacity: 0.8;
 }
 
-/* line 121, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 122, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content .portfolio_prodjectHeader a {
   float: none;
   clear: both;
@@ -230,7 +231,7 @@ div.grid-4.portfolio_tabName__activity::after {
   padding-bottom: 3px;
 }
 
-/* line 136, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 137, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content .portfolio_prodjectHeader a::after {
   content: "";
   display: inline-block;
@@ -243,14 +244,20 @@ div.grid-4.portfolio_tabName__activity::after {
   z-index: 10;
 }
 
-/* line 154, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
-.portfolio_content__activity {
+/* line 155, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_content__activity,
+.portfolio_contacts {
   display: block;
   padding-left: 10px;
   padding-top: 66px;
 }
 
-/* line 159, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 161, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_contacts {
+  padding-top: 63px;
+}
+
+/* line 165, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content__activity > ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -269,7 +276,7 @@ div.grid-4.portfolio_tabName__activity::after {
           align-items: stretch;
 }
 
-/* line 166, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 172, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content__activity > ul li {
   display: inline-block;
   width: 100%;
@@ -278,7 +285,7 @@ div.grid-4.portfolio_tabName__activity::after {
   margin-bottom: 19px;
 }
 
-/* line 176, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 182, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content__activity li.portfolio_prodject section {
   display: inline-block;
   padding: 0;
@@ -289,14 +296,14 @@ div.grid-4.portfolio_tabName__activity::after {
   max-width: initial;
 }
 
-/* line 186, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 192, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content__activity li.portfolio_prodject section .portfolio_preview {
   padding: 0;
   float: none;
   max-width: 362px;
 }
 
-/* line 192, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 198, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_content__activity li.portfolio_prodject section div.portfolio_prodjectHeader {
   float: none;
   background: none;
@@ -306,37 +313,37 @@ div.grid-4.portfolio_tabName__activity::after {
   display: block;
 }
 
-/* line 207, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 213, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 main .portfolio_content__activity li.portfolio_prodject section:first-child div.portfolio_prodjectHeader {
   background-color: #1e2e3e;
 }
 
-/* line 214, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 220, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 main .portfolio_content__activity li.portfolio_prodject:first-child section:first-child div.portfolio_prodjectHeader {
   background-color: #00cccc;
 }
 
-/* line 221, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 227, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 main .portfolio_content__activity li.portfolio_prodject:nth-child(3) section:first-child div.portfolio_prodjectHeader {
   background-color: #333333;
 }
 
-/* line 228, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 234, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 main .portfolio_content__activity li.portfolio_prodject:nth-child(4) section:first-child div.portfolio_prodjectHeader {
   background-color: #0099cc;
 }
 
-/* line 235, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 241, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 main .portfolio_content__activity li.portfolio_prodject:nth-child(5) section:first-child div.portfolio_prodjectHeader {
   background-color: #333333;
 }
 
-/* line 242, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 248, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 main .portfolio_content__activity li.portfolio_prodject:nth-child(6) section:first-child div.portfolio_prodjectHeader {
   background-color: #666699;
 }
 
-/* line 250, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+/* line 256, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
 .portfolio_preview {
   overflow: hidden;
   min-width: 318px;
@@ -347,4 +354,116 @@ main .portfolio_content__activity li.portfolio_prodject:nth-child(6) section:fir
 }
 
 /* --the block is content portfolio - end */
-/* The block portfolio style - end */
+/* --the block is contains contacts data - beginning */
+/* ---lefr column - start */
+/* line 272, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.portfolio_contacts.contacts {
+  width: 100%;
+  max-width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+/* line 281, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_forms,
+.contacts_adress {
+  min-width: 318px;
+  width: 100%;
+  max-width: 342px;
+}
+
+/* line 286, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_forms {
+  border: 0;
+  border-right: 1px solid #cccccc;
+  text-align: left;
+  position: relative;
+}
+
+/* line 289, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_forms input,
+.contacts_forms textarea {
+  display: inline-block;
+  border: 1px solid #666666;
+  height: 35px;
+  width: 265px;
+  margin-bottom: 21px;
+  z-index: 3;
+}
+
+/* line 298, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_forms label {
+  display: inline-block;
+  position: absolute;
+  z-index: 5;
+  right: initial;
+  left: 14px;
+  top: 11px;
+  color: #666666;
+  font-size: calc(100% + 1px);
+}
+
+/* line 308, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_forms textarea {
+  height: 95px;
+}
+
+/* line 313, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_forms input[type="submit"] {
+  display: inline-block;
+  width: 95px;
+  margin-left: 170px;
+  letter-spacing: 0.18em;
+}
+
+/* line 323, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_formsTitle {
+  padding-left: 1px;
+  margin-bottom: 22px;
+}
+
+/* line 326, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_formsTitle h3 {
+  font-size: calc(100% + 8px);
+}
+
+/* ---left column - end */
+/* ---right column - start */
+/* line 334, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_adressList {
+  display: block;
+  float: none;
+  clear: both;
+  text-align: left;
+  padding: 0;
+  padding-left: 78px;
+  padding-top: 8px;
+}
+
+/* line 344, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_adressList .contacts_text,
+.contacts_adressList .contacts_emai,
+.contacts_adressList .contacts_phone {
+  margin: 0;
+  margin-bottom: 49px;
+}
+
+/* line 349, D:/OpenServer/domains/portfolio/site/cvresume-web/scss/portfolio-style.scss */
+.contacts_adressList .contacts_text div,
+.contacts_adressList .contacts_emai div,
+.contacts_adressList .contacts_phone div {
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+/* ---right column - end */
+/* --the block is contains contacts data - end */
