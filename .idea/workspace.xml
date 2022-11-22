@@ -57,6 +57,8 @@
       <change afterPath="$PROJECT_DIR$/resta/js/jqPagination-master/js/scripts.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/js/js-dist.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resta/ИМ_шаров_last.fig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site/cvresume-web/inside_page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta" beforeDir="false" afterPath="$PROJECT_DIR$/resta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/resta/category/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/category/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/resta/category/main.php" afterDir="false" />
@@ -70,11 +72,19 @@
       <change beforePath="$PROJECT_DIR$/resta/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/aside.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resta/scss/main_category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resta/scss/main_category.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/site/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,6 +105,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/site/cvresume-web/css" />

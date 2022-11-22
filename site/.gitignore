@@ -1,23 +1,22 @@
 **/.idea
 **/resta
+**/#source
+**/inside_page
 
 **/prepros.config
 **/prepros.config
 **/simply_file.css
-**/*.css.map
-
-**/#source
-**/img/*
 **/style.css
+**/css/nulstyle.css
+**/css/screen-style.css
+**/*.css.map
+**/img/*
 **/*.json
 **/*.txt
 
-**/Main_File/*.psd
 **/Main_File/img/
+**/Main_File/*.psd
 **/Main_File/Resume_Home_54seo.png
 **/Main_File/portfolio_a_.png
-
-
-**/css/nulstyle.css
-**/css/screen-style.css
+**/Main_File/Resume_Single_Portfolio.png
 
