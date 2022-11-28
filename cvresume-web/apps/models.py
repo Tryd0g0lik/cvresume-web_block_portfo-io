@@ -40,6 +40,10 @@ class MenuModel(models.Model):
 
 
 class WorkExperienceModel(models.Model):
+	title = models.CharField(
+		verbose_name='Заголовок',
+		max_length=30,
+	)
 	beginning_data = models.DateField(
 		verbose_name='Начало обучения',
 		help_text='Дата начала обучения',
@@ -65,6 +69,10 @@ class WorkExperienceModel(models.Model):
 
 
 class EducationModel(models.Model):
+	title = models.CharField(
+		verbose_name='Заголовок',
+		max_length=30,
+	)
 	beginning_data=models.DateField(
 		verbose_name='Начало работы',
 		help_text='Начало работы в должности',
@@ -126,9 +134,16 @@ class PagesModel(models.Model):
 		auto_now_add=True,
 		verbose_name="Отредактирована",
 	)
+
 	from_menu=models.BooleanField(
 		null=True,
 		verbose_name="Указать в меню"
+	)
+
+	url_path = models.CharField(
+		max_length=50,
+		verbose_name='url',
+		help_text='Путь к странице',
 	)
 
 	def __str__(self):
@@ -150,9 +165,54 @@ class PicturiesModel(models.Model):
 		help_text='Дата загрузки',
 	)
 
+
 	def __str__(self):
 		return '%s' % (self.path, )
 
 	class Meta:
 		verbose_name="Путь к img"
 		verbose_name_plural="Путь к изображениям"
+
+class MiddlePicturiesModel(models.Model):
+	pages = models.ForeignKey(
+		PagesModel,
+		on_delete=models.CASCADE,
+		related_name='imgPages',
+	  )
+	pathPictiries = models.ForeignKey(
+		PicturiesModel,
+		on_delete=models.CASCADE,
+		related_name='imgPages',
+	)
+
+class MiddlePages(models.Model):
+	pages = models.ForeignKey(
+		PagesModel,
+		on_delete=models.CASCADE,
+		related_name='previewForMainPage',
+		help_text='Заголовок и краткое описание из базовой страницы',
+	)
+	experience = models.ForeignKey(
+		WorkExperienceModel,
+		on_delete=models.CASCADE,
+		related_name='experienceMainPage',
+		null=True,
+		unique='Null',
+		help_text='''Превью описания опыта и краткое описание \n3
+		          из базовой страницы. Свойство - НЕ ОБЯЗАТЕЛЬНО''',
+	)
+	education = models.ForeignKey(
+		EducationModel,
+		on_delete=models.CASCADE,
+		related_name='educationMainPage',
+		null=True,
+		unique='Null',
+	)
+
+
+
+
+
+	class Meta:
+		verbose_name='Изображение',
+		verbose_name_plural="Изображения на страницах",

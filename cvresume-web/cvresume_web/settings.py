@@ -121,7 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru'
 
-TIME_ZONE = 'UTC+07:00'
+TIME_ZONE = 'Asia/Novosibirsk'
 
 USE_I18N = True
 
@@ -134,7 +134,7 @@ SHORT_DATETIME_FIRMAT = 'j.m.Y H:i:s'
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATICFILES_DIRS = [
-    '/cvresume-web/apps/static/',
+    'apps/static/',
 ]
 
 STATIC_URL = 'static/'
