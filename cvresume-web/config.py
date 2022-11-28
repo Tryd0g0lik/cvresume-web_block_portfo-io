@@ -4,3 +4,4 @@ load_dotenv()
 
 USER=os.getenv('USER')
 PASS=os.getenv('PASS')
+print("USER: ", os.getenv('USER'), PASS)

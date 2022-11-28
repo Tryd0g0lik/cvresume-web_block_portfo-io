@@ -90,7 +90,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'HOST': '127.0.0.1',
-        'NAME': 'db_portfolio',
+        'NAME': 'cvresume_web',
         'USER': USER,
         'PASSWORD': PASS,
     }
@@ -132,6 +132,10 @@ SHORT_DATETIME_FIRMAT = 'j.m.Y H:i:s'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
+
+STATICFILES_DIRS = [
+    '/cvresume-web/apps/static/',
+]
 
 STATIC_URL = 'static/'
 
