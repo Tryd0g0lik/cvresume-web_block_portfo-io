@@ -134,7 +134,7 @@ SHORT_DATETIME_FIRMAT = 'j.m.Y H:i:s'
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATICFILES_DIRS = [
-    'apps/static/',
+    'cvresume-web/apps/static/',
 ]
 
 STATIC_URL = 'static/'

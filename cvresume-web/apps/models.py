@@ -16,11 +16,11 @@ class TypeMenuChoise(models.TextChoices):
 	CHILDE = "CHILDE", "Дочернеий"
 
 class MenuModel(models.Model):
-	type_page=models.TextField (
+	type_page = models.TextField (
 		choices=TypeMenuChoise.choices,
 		default=TypeMenuChoise.PARENTS,
 	)
-	id_pages=models.ForeignKey(
+	id_pages = models.ForeignKey(
 		'PagesModel',
 		on_delete=models.CASCADE,
 		related_name='pagesChild'
@@ -197,7 +197,7 @@ class MiddlePages(models.Model):
 		on_delete=models.CASCADE,
 		related_name='experienceMainPage',
 		null=True,
-		unique='Null',
+		default='Null',
 		help_text='''Превью описания опыта и краткое описание \n3
 		          из базовой страницы. Свойство - НЕ ОБЯЗАТЕЛЬНО''',
 	)
@@ -206,13 +206,9 @@ class MiddlePages(models.Model):
 		on_delete=models.CASCADE,
 		related_name='educationMainPage',
 		null=True,
-		unique='Null',
+		default='Null',
 	)
-
-
-
-
 
 	class Meta:
 		verbose_name='Изображение',
-		verbose_name_plural="Изображения на страницах",
+		verbose_name_plural=("Изображения на страницах",)
