@@ -13,7 +13,10 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-from config import USER, PASS
+from cvresume_web.config import USER, PASS
+
+# from config import USER, PASS
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -89,7 +92,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'NAME': 'db_portfolio',
         'USER': USER,
-        'PASSWORD': PASS,
+        'PASSWORD': USER,
     }
 }
 
