@@ -16,28 +16,30 @@ class TypeMenuChoise(models.TextChoices):
 	CHILDE = "CHILDE", "Дочернеий"
 
 class MenuModel(models.Model):
-	type_page=models.TextChoices(
+	type_page=models.TextField (
 		choices=TypeMenuChoise.choices,
 		default=TypeMenuChoise.PARENTS,
 	)
 	id_pages=models.ForeignKey(
 		'PagesModel',
 		on_delete=models.CASCADE,
+		related_name='pagesChild'
 	)
 	id_parents_pages = models.ForeignKey(
 		'PagesModel',
 		on_delete=models.CASCADE,
+		related_name='pagesParent'
 	)
 
 	def __str__(self):
 		return 'Страница: %s, тип: %s' % (self.id_pages, self.type_page)
 
 	class Meta:
-		verdose_name = "Заголовок"
+		verbose_name = "Заголовок"
 		verbose_name_plural="Заголовки страницы"
 
 
-class WorkExperienceModel(models.Nodel):
+class WorkExperienceModel(models.Model):
 	beginning_data = models.DateField(
 		verbose_name='Начало обучения',
 		help_text='Дата начала обучения',
@@ -99,10 +101,11 @@ class PagesModel(models.Model):
 		null=True,
 	)
 	creator = models.ForeignKey(
-		settings.AUTH_USERMODEL,
+		settings.AUTH_USER_MODEL,
 		on_delete=models.CASCADE,
 		verbose_name="Пользователь",
 		help_text="Пользователь создал",
+		related_name="correctUser"
 	)
 	preview_text=models.TextField(
 		verbose_name="Краткое описание",
@@ -140,7 +143,7 @@ class PicturiesModel(models.Model):
 	path = models.ImageField(
 		max_length=80,
 		width_field='Width',
-		height_feild='Height',
+		height_field='Height',
 		upload_to='files/pictures/%Y/%m/%d/',
 	)
 	date_created=models.DateTimeField(
