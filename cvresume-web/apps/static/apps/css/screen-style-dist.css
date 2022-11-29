@@ -27,8 +27,8 @@
 	main section:last-of-type > div > div, main section:nth-of-type(3) > div:first-of-type, main section:nth-of-type(3) > div{display: block;margin: 0 auto;float: none;clear: both; margin-bottom:10px;}
 	main section:last-of-type > div > div:first-of-type{margin-bottom:10px;height: 313px;}
 
-	main section:nth-of-type(2) > div:nth-of-type(2) ul li:before, main section:nth-of-type(3) > div:nth-of-type(2) ul li:before {content:'';position: absolute;display:inline-block;width:23px;height:21px;background-color: #353541;left: 100%;bottom: 13.4px;clip-path: polygon(0px 0px, 24px 19px, 24px 19px, 0px 21px);/* background: url(/img/circle.png) no-repeat; */}
-	main section:nth-of-type(2) > div:nth-of-type(2) ul li:after, main section:nth-of-type(3) > div:nth-of-type(2) ul li:after {content: '';position: absolute;display: inline-block;width: 32px;height: 32px;left: 112.1%;bottom: -4.6px;background: url(/img/circle.png) no-repeat;}
+	main section:nth-of-type(2) > div:nth-of-type(2) ul li:before, main section:nth-of-type(3) > div:nth-of-type(2) ul li:before {content:'';position: absolute;display:inline-block;width:23px;height:21px;background-color: #353541;left: 100%;bottom: 13.4px;clip-path: polygon(0px 0px, 24px 19px, 24px 19px, 0px 21px);/* background: url(/static/apps/img/circle.png) no-repeat; */}
+	main section:nth-of-type(2) > div:nth-of-type(2) ul li:after, main section:nth-of-type(3) > div:nth-of-type(2) ul li:after {content: '';position: absolute;display: inline-block;width: 32px;height: 32px;left: 112.1%;bottom: -4.6px;background: url(/static/apps/img/circle.png) no-repeat;}
 
 	main section:nth-of-type(2) > div:nth-of-type(2), main section:nth-of-type(3) > div:nth-of-type(2){border-right:1px #353541 solid;}
 	main section:nth-of-type(2) > div:nth-of-type(1), main section:nth-of-type(2) > div:nth-of-type(2), main section:nth-of-type(3) > div{left:auto; margin: 0 auto 10px auto;}
