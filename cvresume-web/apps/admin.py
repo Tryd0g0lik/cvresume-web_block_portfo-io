@@ -1,6 +1,39 @@
 from django.contrib import admin
 
-from apps.models import EducationModel, MenuModel, WorkExperienceModel, PagesModel, MiddlePicturiesModel, MiddlePages
+from apps.models import EducationModel, MiddlePicturiesModel, WorkExperienceModel, MenuModel, PagesModel, PicturiesModel
+
+
+class MiddlePicturiesInline(admin.StackedInline):
+	model = MiddlePicturiesModel
+	extra = 0
+
+# class MenuAdmin(admin.StackedInline):
+# 	model = MenuModel
+# 	extra = 0
+
+# class MiddlePicturiesInline(admin.StackedInline):
+# 	madel = MiddlePicturiesModel
+# 	extra = 0
+
+@admin.register(MenuModel)
+class MenuAdmin(admin.ModelAdmin):
+	fields = [
+		'id_pages',
+		'type_page',
+		]
+
+	list_display = [
+		"id",
+		'type_page',
+		'id_pages',
+
+	]
+	list_filter = [
+		'type_page',
+	]
+	ordering = [
+		'id_pages',
+	]
 
 
 @admin.register(EducationModel)
@@ -8,8 +41,9 @@ class EducationAdmin(admin.ModelAdmin):
 	fields = [
 		'title',
 		'beginning_data',
-		'complated_data'
+		'complated_data',
 	]
+
 	list_display = [
 		'id',
 		'title',
@@ -23,40 +57,16 @@ class EducationAdmin(admin.ModelAdmin):
 
 	ordering = ['title',]
 
-@admin.register(MenuModel)
-class MenuAdmin(admin.ModelAdmin):
-	fields = [
-		'id',
-		'type_page',
-		'id_pages',
-
-	]
-
-	list_display = [
-
-		'type_page',
-		'id_pages',
-
-	]
-	list_filter = [
-		'type_page',
-	]
-	ordering = [
-		'type_page',
-	]
-
 
 @admin.register(WorkExperienceModel)
 class WorkExperienceAdmin(admin.ModelAdmin):
 	fields = [
-		'id',
 		'title',
 		'beginning_data',
 		'complated_data',
 		'preview_text',
 	]
 	list_display = [
-		'title',
 		'beginning_data',
 		'complated_data',
 		'preview_text',
@@ -74,15 +84,16 @@ class WorkExperienceAdmin(admin.ModelAdmin):
 @admin.register(PagesModel)
 class PagesAdmin(admin.ModelAdmin):
 	field = [
-		'id',
 		'type',
 		'title',
-		'creator',
+
 		'preview_text',
 		'date_created',
 		'date_change',
+
 		'from_menu',
 		'url_path'
+		'creator',
 	]
 	list_filter = [
 		'type',
@@ -100,25 +111,49 @@ class PagesAdmin(admin.ModelAdmin):
 		'url_path'
 	]
 
-@admin.register(MiddlePicturiesModel)
-class MiddlePicturiesAdmin(admin.ModelAdmin):
+	inlines = [MiddlePicturiesInline, ]
+
+@admin.register(PicturiesModel)
+class PicturiesAdmin(admin.ModelAdmin):
 	fields = [
+		'path',
+		'date_created',
+	]
+
+	list_display = [
 		'id',
-		'pages',
-
+		'path',
+		'date_created',
 	]
 
-	list_display =[
-		'pages',
-
-	]
-
-	list_filter = [
-		'pages',
-	]
+	list_filter = ['date_created',]
 
 
-@admin.register(MiddlePages)
-class MiddlePagesAdmin(admin.ModelAdmin):
-	fields = ['pages', ]
+
+# admin.register(PicturiesModel, PicturiesAdmin)
+
+
+
+# @admin.register(MiddlePicturiesModel)
+# class MiddlePicturiesAdmin(admin.ModelAdmin):
+# 	fields = [
+# 		'pages',
+#
+# 	]
+#
+# 	list_display =[
+# 		'pages',
+#
+# 	]
+#
+# 	list_filter = [
+# 		'pages',
+# 	]
+
+#
+#
+#
+# @admin.register(MiddlePages)
+# class MiddlePagesAdmin(admin.ModelAdmin):
+# 	fields = ['pages', ]
 

@@ -17,6 +17,7 @@ class TypeMenuChoise(models.TextChoices):
 
 class MenuModel(models.Model):
 	type_page = models.TextField (
+		max_length=50,
 		choices=TypeMenuChoise.choices,
 		default=TypeMenuChoise.PARENTS,
 	)
@@ -25,25 +26,29 @@ class MenuModel(models.Model):
 		on_delete=models.CASCADE,
 		related_name='pagesChild'
 	)
-	id_parents_pages = models.ForeignKey(
-		'PagesModel',
-		on_delete=models.CASCADE,
-		related_name='pagesParent'
-	)
+
 
 	def __str__(self):
 		return 'Страница: %s, тип: %s' % (self.id_pages, self.type_page)
 
 	class Meta:
-		verbose_name = "Заголовок"
-		verbose_name_plural="Заголовки страницы"
+		verbose_name = "Раздел меню"
+		verbose_name_plural="Разделы меню"
 
 
 class WorkExperienceModel(models.Model):
-	title = models.CharField(
-		verbose_name='Заголовок',
-		max_length=30,
+	# title = models.CharField(
+	# 	verbose_name='Заголовок',
+	# 	max_length=50,
+	# )
+
+	title = models.ManyToManyField(
+		'PagesModel',
+		verbose_name="Должность",
+		related_name="jobsTitle",
+
 	)
+
 	beginning_data = models.DateField(
 		verbose_name='Начало обучения',
 		help_text='Дата начала обучения',
@@ -54,7 +59,7 @@ class WorkExperienceModel(models.Model):
 	blank=True,
 	)
 	preview_text = models.TextField(
-		max_length=100,
+		max_length=50,
 		blank=True,
 		help_text="Превью описание"
 	)
@@ -69,9 +74,16 @@ class WorkExperienceModel(models.Model):
 
 
 class EducationModel(models.Model):
-	title = models.CharField(
-		verbose_name='Заголовок',
-		max_length=30,
+	# title = models.CharField(
+	# 	verbose_name='Заголовок',
+	# 	max_length=50,
+	# )
+
+	title = models.OneToOneField(
+		'PagesModel',
+		on_delete=models.CASCADE,
+		related_name="courseTitle",
+		help_text="Наименование курса",
 	)
 	beginning_data=models.DateField(
 		verbose_name='Начало работы',
@@ -99,13 +111,14 @@ class TypePageChoices(models.TextChoices):
 	PAGE = "PAGE", "Страница"
 
 class PagesModel(models.Model):
-	type = models.TextField(
+	type = models.CharField(
+		max_length=50,
 		choices=TypePageChoices.choices,
 		default=TypePageChoices.PAGE,
 		verbose_name="Тип страницы",
 	)
-	title=models.TextField(
-		max_length=70,
+	title=models.CharField(
+		max_length=100,
 		null=True,
 	)
 	creator = models.ForeignKey(
@@ -115,12 +128,13 @@ class PagesModel(models.Model):
 		help_text="Пользователь создал",
 		related_name="correctUser"
 	)
-	preview_text=models.TextField(
+	preview_text=models.CharField(
+		max_length=150,
 		verbose_name="Краткое описание",
 		help_text="Краткое описание не более 50 символов",
 		blank=True
 	)
-	description=models.CharField(
+	description=models.TextField(
 		max_length=2000,
 		verbose_name="Содержание",
 		blank=True,
@@ -141,7 +155,7 @@ class PagesModel(models.Model):
 	)
 
 	url_path = models.CharField(
-		max_length=50,
+		max_length=100,
 		verbose_name='url',
 		help_text='Путь к странице',
 	)
@@ -170,8 +184,8 @@ class PicturiesModel(models.Model):
 		return '%s' % (self.path, )
 
 	class Meta:
-		verbose_name="Путь к img"
-		verbose_name_plural="Путь к изображениям"
+		verbose_name = "Путь к img"
+		verbose_name_plural = "Путь к изображениям"
 
 class MiddlePicturiesModel(models.Model):
 	pages = models.ForeignKey(
@@ -182,33 +196,43 @@ class MiddlePicturiesModel(models.Model):
 	pathPictiries = models.ForeignKey(
 		PicturiesModel,
 		on_delete=models.CASCADE,
-		related_name='imgPages',
+		related_name='imgPath',
 	)
 
-class MiddlePages(models.Model):
-	pages = models.ForeignKey(
-		PagesModel,
-		on_delete=models.CASCADE,
-		related_name='previewForMainPage',
-		help_text='Заголовок и краткое описание из базовой страницы',
-	)
-	experience = models.ForeignKey(
-		WorkExperienceModel,
-		on_delete=models.CASCADE,
-		related_name='experienceMainPage',
-		null=True,
-		default='Null',
-		help_text='''Превью описания опыта и краткое описание \n3
-		          из базовой страницы. Свойство - НЕ ОБЯЗАТЕЛЬНО''',
-	)
-	education = models.ForeignKey(
-		EducationModel,
-		on_delete=models.CASCADE,
-		related_name='educationMainPage',
-		null=True,
-		default='Null',
-	)
+	def __str__(self):
+		return 'Страница: %s и изображение: %s' % (self.pages, self.pathPictiries)
 
 	class Meta:
-		verbose_name='Изображение',
-		verbose_name_plural=("Изображения на страницах",)
+		verbose_name = "Изображение не странице"
+		verbose_name_plural = "Изображения страницы"
+
+#
+# class MiddlePages(models.Model):
+# 	pages = models.ForeignKey(
+# 		PagesModel,
+# 		on_delete=models.CASCADE,
+# 		related_name='previewForMainPage',
+# 		help_text='Заголовок и краткое описание из базовой страницы',
+# 	)
+# 	experience = models.ForeignKey(
+# 		WorkExperienceModel,
+# 		on_delete=models.CASCADE,
+# 		related_name='experienceMainPage',
+# 		null=True,
+# 		default='Null',
+# 		help_text='''Превью описания опыта и краткое описание \n3
+# 		          из базовой страницы. Свойство - НЕ ОБЯЗАТЕЛЬНО''',
+# 	)
+# 	education = models.ForeignKey(
+# 		EducationModel,
+# 		on_delete=models.CASCADE,
+# 		related_name='educationMainPage',
+# 		null=True,
+# 		default='Null',
+# 	)
+# 	def __str__(self):
+# 		return "Страница %s" % (self.pages, )
+#
+# 	class Meta:
+# 		verbose_name='Изображение',
+# 		verbose_name_plural=("Изображения на страницах",)
