@@ -7,14 +7,6 @@ class MiddlePicturiesInline(admin.StackedInline):
 	model = MiddlePicturiesModel
 	extra = 0
 
-# class MenuAdmin(admin.StackedInline):
-# 	model = MenuModel
-# 	extra = 0
-
-# class MiddlePicturiesInline(admin.StackedInline):
-# 	madel = MiddlePicturiesModel
-# 	extra = 0
-
 @admin.register(MenuModel)
 class MenuAdmin(admin.ModelAdmin):
 	fields = [
@@ -127,33 +119,4 @@ class PicturiesAdmin(admin.ModelAdmin):
 	]
 
 	list_filter = ['date_created',]
-
-
-
-# admin.register(PicturiesModel, PicturiesAdmin)
-
-
-
-# @admin.register(MiddlePicturiesModel)
-# class MiddlePicturiesAdmin(admin.ModelAdmin):
-# 	fields = [
-# 		'pages',
-#
-# 	]
-#
-# 	list_display =[
-# 		'pages',
-#
-# 	]
-#
-# 	list_filter = [
-# 		'pages',
-# 	]
-
-#
-#
-#
-# @admin.register(MiddlePages)
-# class MiddlePagesAdmin(admin.ModelAdmin):
-# 	fields = ['pages', ]
 

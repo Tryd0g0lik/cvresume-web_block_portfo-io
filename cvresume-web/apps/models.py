@@ -37,10 +37,6 @@ class MenuModel(models.Model):
 
 
 class WorkExperienceModel(models.Model):
-	# title = models.CharField(
-	# 	verbose_name='Заголовок',
-	# 	max_length=50,
-	# )
 
 	title = models.ManyToManyField(
 		'PagesModel',
@@ -74,10 +70,6 @@ class WorkExperienceModel(models.Model):
 
 
 class EducationModel(models.Model):
-	# title = models.CharField(
-	# 	verbose_name='Заголовок',
-	# 	max_length=50,
-	# )
 
 	title = models.OneToOneField(
 		'PagesModel',
@@ -203,34 +195,3 @@ class MiddlePicturiesModel(models.Model):
 	class Meta:
 		verbose_name = "Изображение не странице"
 		verbose_name_plural = "Изображения страницы"
-
-#
-# class MiddlePages(models.Model):
-# 	pages = models.ForeignKey(
-# 		PagesModel,
-# 		on_delete=models.CASCADE,
-# 		related_name='previewForMainPage',
-# 		help_text='Заголовок и краткое описание из базовой страницы',
-# 	)
-# 	experience = models.ForeignKey(
-# 		WorkExperienceModel,
-# 		on_delete=models.CASCADE,
-# 		related_name='experienceMainPage',
-# 		null=True,
-# 		default='Null',
-# 		help_text='''Превью описания опыта и краткое описание \n3
-# 		          из базовой страницы. Свойство - НЕ ОБЯЗАТЕЛЬНО''',
-# 	)
-# 	education = models.ForeignKey(
-# 		EducationModel,
-# 		on_delete=models.CASCADE,
-# 		related_name='educationMainPage',
-# 		null=True,
-# 		default='Null',
-# 	)
-# 	def __str__(self):
-# 		return "Страница %s" % (self.pages, )
-#
-# 	class Meta:
-# 		verbose_name='Изображение',
-# 		verbose_name_plural=("Изображения на страницах",)
