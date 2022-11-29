@@ -37,7 +37,6 @@ class MenuModel(models.Model):
 
 
 class WorkExperienceModel(models.Model):
-
 	title = models.ManyToManyField(
 		'PagesModel',
 		verbose_name="Должность",
@@ -70,7 +69,6 @@ class WorkExperienceModel(models.Model):
 
 
 class EducationModel(models.Model):
-
 	title = models.OneToOneField(
 		'PagesModel',
 		on_delete=models.CASCADE,
