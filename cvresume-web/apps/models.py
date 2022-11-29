@@ -2,7 +2,7 @@ import time
 
 from django.conf import settings
 from django.db import models
-
+from PIL import Image, ImageFile
 # Create your models here.
 from django.utils import timezone
 
@@ -171,9 +171,7 @@ class PagesModel(models.Model):
 class PicturiesModel(models.Model):
 	path = models.ImageField(
 		max_length=80,
-		width_field='Width',
-		height_field='Height',
-		upload_to='files/pictures/%Y/%m/%d/',
+		upload_to='cvresume-web/files/pictures/%Y/%m/%d/',
 	)
 	date_created=models.DateTimeField(
 		help_text='Дата загрузки',
