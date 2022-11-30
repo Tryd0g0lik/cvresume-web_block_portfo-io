@@ -12,7 +12,9 @@ class MenuAdmin(admin.ModelAdmin):
 	fields = [
 		'id_pages',
 		'type_page',
+		'delete',
 		]
+
 
 	list_display = [
 		"id",
@@ -34,13 +36,15 @@ class EducationAdmin(admin.ModelAdmin):
 		'title',
 		'beginning_data',
 		'complated_data',
+		"delete",
 	]
 
 	list_display = [
 		'id',
 		'title',
 		'beginning_data',
-		'complated_data'
+		'complated_data',
+		"delete",
 	]
 	list_filter = ['id',
 		'title',
@@ -57,11 +61,13 @@ class WorkExperienceAdmin(admin.ModelAdmin):
 		'beginning_data',
 		'complated_data',
 		'preview_text',
+		"delete",
 	]
 	list_display = [
 		'beginning_data',
 		'complated_data',
 		'preview_text',
+		"delete",
 	]
 	filter = ['title',]
 	ordering = ['beginning_data']

@@ -27,6 +27,10 @@ class MenuModel(models.Model):
 		related_name='pagesChild'
 	)
 
+	delete = models.BooleanField(
+		null=True,
+		verbose_name="Удалить",
+	)
 
 	def __str__(self):
 		return 'Страница: %s, тип: %s' % (self.id_pages, self.type_page)
@@ -59,6 +63,11 @@ class WorkExperienceModel(models.Model):
 		help_text="Превью описание"
 	)
 
+	delete = models.BooleanField(
+		null=True,
+		verbose_name="Удалить",
+	)
+
 	def __str__(self):
 		return "Начало: %s, Окончание %s" % (self.beginning_data,
 		                                     self.complated_data,)
@@ -82,6 +91,11 @@ class EducationModel(models.Model):
 	complated_data=models.DateField(
 		help_text='Окончание работы',
 		blank=True,
+	)
+
+	delete = models.BooleanField(
+		null=True,
+		verbose_name="Удалить"
 	)
 
 	def __str__(self):
