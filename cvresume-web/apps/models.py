@@ -15,6 +15,15 @@ class TypeMenuChoise(models.TextChoices):
 	PARENTS = "PARENTS", "Родительский"
 	CHILDE = "CHILDE", "Дочернеий"
 
+class PublicationChoise(models.TextChoices):
+	'''
+	TODO: The block will be publication or not.\
+	 Used inside models a WorkExperienceModel and EducationModel
+	'''
+	PUBLIC = "PUBLIC", "Публикация"
+	NOPUBLIC = 'NOPUBLIC', "----"
+
+
 class MenuModel(models.Model):
 	type_page = models.TextField (
 		max_length=50,
@@ -41,31 +50,31 @@ class MenuModel(models.Model):
 
 
 class WorkExperienceModel(models.Model):
-	title = models.ManyToManyField(
-		'PagesModel',
-		verbose_name="Должность",
-		related_name="jobsTitle",
-
+	name = models.ForeignKey(
+			'PagesModel',
+			verbose_name="Должность",
+			on_delete=models.CASCADE
 	)
-
 	beginning_data = models.DateField(
 		verbose_name='Начало обучения',
 		help_text='Дата начала обучения',
 	)
 	complated_data = models.DateField(
-	verbose_name="Окончание учёбы",
-	help_text="Дата окончания обучения",
-	blank=True,
+		verbose_name="Окончание учёбы",
+		help_text="Дата окончания обучения",
+		blank=True,
 	)
 	preview_text = models.TextField(
-		max_length=50,
+		max_length=80,
 		blank=True,
 		help_text="Превью описание"
 	)
 
-	delete = models.BooleanField(
-		null=True,
-		verbose_name="Удалить",
+	public = models.TextField(
+		choices=PublicationChoise.choices,
+		default=PublicationChoise.NOPUBLIC,
+		help_text="Публикуем на странице или нет. По умолчанию, публикации нет",
+		verbose_name="Публикация",
 	)
 
 	def __str__(self):
@@ -78,10 +87,10 @@ class WorkExperienceModel(models.Model):
 
 
 class EducationModel(models.Model):
-	title = models.OneToOneField(
+	title = models.ForeignKey(
 		'PagesModel',
 		on_delete=models.CASCADE,
-		related_name="courseTitle",
+		# related_name="courseTitle",
 		help_text="Наименование курса",
 	)
 	beginning_data=models.DateField(
@@ -92,10 +101,17 @@ class EducationModel(models.Model):
 		help_text='Окончание работы',
 		blank=True,
 	)
-
-	delete = models.BooleanField(
-		null=True,
-		verbose_name="Удалить"
+	preview_text = models.TextField(
+		max_length=80,
+		blank=True,
+		verbose_name="Краткое описание",
+		help_text="Краткое описание в 80 символов"
+	)
+	public = models.TextField(
+		choices=PublicationChoise.choices,
+		default=PublicationChoise.NOPUBLIC,
+		help_text="Публикуем на странице или нет. По умолчанию, публикации нет",
+		verbose_name="Публикация",
 	)
 
 	def __str__(self):
@@ -103,8 +119,8 @@ class EducationModel(models.Model):
 		                                     self.complated_data,)
 
 	class Meta:
-		verbose_name = "Дата обучения"
-		verbose_name_plural = "Сроки обучения"
+		verbose_name = "Образование"
+		verbose_name_plural = "Образование"
 
 
 class TypePageChoices(models.TextChoices):
@@ -124,6 +140,7 @@ class PagesModel(models.Model):
 	title=models.CharField(
 		max_length=100,
 		null=True,
+		verbose_name="Название"
 	)
 	creator = models.ForeignKey(
 		settings.AUTH_USER_MODEL,
@@ -195,6 +212,7 @@ class MiddlePicturiesModel(models.Model):
 		on_delete=models.CASCADE,
 		related_name='imgPages',
 	  )
+
 	pathPictiries = models.ForeignKey(
 		PicturiesModel,
 		on_delete=models.CASCADE,
@@ -207,3 +225,5 @@ class MiddlePicturiesModel(models.Model):
 	class Meta:
 		verbose_name = "Изображение не странице"
 		verbose_name_plural = "Изображения страницы"
+
+

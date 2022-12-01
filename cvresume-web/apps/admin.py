@@ -1,10 +1,15 @@
 from django.contrib import admin
 
-from apps.models import EducationModel, MiddlePicturiesModel, WorkExperienceModel, MenuModel, PagesModel, PicturiesModel
+from apps.models import EducationModel, MiddlePicturiesModel, WorkExperienceModel, MenuModel, PagesModel, \
+	PicturiesModel
 
+#
+# class MiddlePicturiesInline(admin.StackedInline):
+# 	model = MiddlePageWExperience
+# 	extra = 0
 
-class MiddlePicturiesInline(admin.StackedInline):
-	model = MiddlePicturiesModel
+class PagesInline(admin.StackedInline):
+	model = PagesModel
 	extra = 0
 
 @admin.register(MenuModel)
@@ -36,7 +41,8 @@ class EducationAdmin(admin.ModelAdmin):
 		'title',
 		'beginning_data',
 		'complated_data',
-		"delete",
+		"preview_text",
+		"public",
 	]
 
 	list_display = [
@@ -44,8 +50,10 @@ class EducationAdmin(admin.ModelAdmin):
 		'title',
 		'beginning_data',
 		'complated_data',
-		"delete",
+		"preview_text",
+		"public",
 	]
+
 	list_filter = ['id',
 		'title',
 		'beginning_data',
@@ -56,24 +64,28 @@ class EducationAdmin(admin.ModelAdmin):
 
 @admin.register(WorkExperienceModel)
 class WorkExperienceAdmin(admin.ModelAdmin):
+	# inlines = [MiddlePicturiesInline, ]
 	fields = [
-		'title',
+
+		'name',
 		'beginning_data',
 		'complated_data',
 		'preview_text',
-		"delete",
+		"public",
 	]
 	list_display = [
+		'id',
+		'name',
 		'beginning_data',
 		'complated_data',
 		'preview_text',
-		"delete",
+		"public",
 	]
-	filter = ['title',]
+
 	ordering = ['beginning_data']
 
 	list_filter = [
-		'title',
+
 		'beginning_data',
 		'complated_data',
 	]
@@ -82,6 +94,7 @@ class WorkExperienceAdmin(admin.ModelAdmin):
 @admin.register(PagesModel)
 class PagesAdmin(admin.ModelAdmin):
 	field = [
+		'title',
 		'type',
 		'title',
 
@@ -109,7 +122,7 @@ class PagesAdmin(admin.ModelAdmin):
 		'url_path'
 	]
 
-	inlines = [MiddlePicturiesInline, ]
+	# inlines = [MiddlePicturiesInline, ]
 
 @admin.register(PicturiesModel)
 class PicturiesAdmin(admin.ModelAdmin):

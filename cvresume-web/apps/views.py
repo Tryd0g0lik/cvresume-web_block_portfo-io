@@ -3,12 +3,12 @@ from pprint import pprint
 from django.shortcuts import render
 
 # Create your views here.
+from apps.experience import Experience_db
+
 
 def indexPage(request):
-	context = {}
+	context = Experience_db().db_pulication()
 
-	# for dict_row in request.__dict__ : pprint(f"request: {dict_row}")
-	pprint(f"request: {request.path }")
 	if request.method == 'GET'\
 	and request.path == '/':
 		return render(
