@@ -24,15 +24,6 @@
 		<section>
 			<h2>Work Experience</h2>
 			<div>
-				<!-- <ul>
-					<li class="workNme">
-						<h4>CEO & Founder</h4>
-						<span>@DeviserWeb</span>
-						<div class="workDate">Jan 2013 - Dec 2014</div>
-						<div>Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</div>
-					</li>
-				</ul> -->
-
 				{% for edu in education %}
 					{% if forloop.counter|divisibleby:"2" == True %}
 
@@ -46,34 +37,9 @@
 						</ul>
 					{% endif %}
 				{% endfor %}
-
-				<!-- <ul>
-					<li class="workNme">
-						<h4>Marketing Manager</h4>
-						<span>@StarLab</span>
-						<div class="workDate">Jan 2013 - Dec 2014</div>
-						<div>Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</div>
-					</li>
-				</ul> -->
 			</div>
 			<div>
-				<!-- <ul>
-					<li class="workNme">
-						<h4>UI/UX Designer</h4>
-						<span>@Academy</span>
-						<div class="workDate">Jan 2013 - Dec 2014</div>
-						<div>Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</div>
-					</li>
-				</ul>
-				<ul>
-					<li class="workNme">
-						<h4>Creative Director</h4>
-						<span>@Academy</span>
-						<div class="workDate">Jan 2013 - Dec 2014</div>
-						<div>Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</div>
-					</li>
-				</ul>
-			</div> -->
+
 				{% for edu in education %}
 					{% if forloop.counter|divisibleby:"2" != True %}
 
@@ -92,42 +58,36 @@
 		<section>
 			<h2>Education</h2>
 			<div>
-				<ul>
-					<li class="workNme">
-						<h4>Art & Multimedia</h4>
-						<span>@Oxford University</span>
-						<div class="workDate">Jan 2013 - Dec 2014</div>
-						<div>Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</div>
-					</li>
-				</ul>
-				<ul>
-					<li class="workNme">
-						<h4>Post Graduation</h4>
-						<span>@Lusofona College</span>
-						<div class="workDate">Jan 2013 - Dec 2014</div>
-						<div>Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</div>
-					</li>
-				</ul>
+				{% for edu in experince %}
+					{% if forloop.counter|divisibleby:"2" == True %}
+
+						<ul>
+							<li class="workNme">
+								<h4>{{  edu.title }}</h4>
+								<span>@DeviserWeb</span>
+								<div class="workDate">{{ edu.beginning_data|date:'M.Y' }} - {{ edu.complated_data|date:'M.Y' }}</div>
+								<div>{{ edu.preview_text|truncatechars_html:30 }}</div>
+							</li>
+						</ul>
+					{% endif %}
+				{% endfor %}
 			</div>
 			<div>
-				<ul>
-					<li class="workNme">
-						<h4>@AIUB</h4>
-						<span>@Academy</span>
-						<div class="workDate">Jan 2013 - Dec 2014</div>
-						<div>Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</div>
-					</li>
-				</ul>
-				<ul>
-					<li class="workNme">
-						<h4>Bachelor Degree</h4>
-						<span>@Leading Universty</span>
-						<div class="workDate">Jan 2013 - Dec 2014</div>
-						<div>Lorem ipsum dolor sit amet, consectetur et incididunt ut labore et dolorea.</div>
-					</li>
-				</ul>
-			</div>
 
+				{% for edu in education %}
+					{% if forloop.counter|divisibleby:"2" != True %}
+
+						<ul>
+							<li class="workNme">
+								<h4>{{  edu.title }}</h4>
+								<span>@DeviserWeb</span>
+								<div class="workDate">{{ edu.beginning_data|date:'M.Y' }} - {{ edu.complated_data|date:'M.Y' }}</div>
+								<div>{{ edu.preview_text|truncatechars_html:30 }}</div>
+							</li>
+						</ul>
+					{% endif %}
+				{% endfor %}
+			</div>
 		</section>
 
 		<section>

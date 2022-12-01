@@ -1,0 +1,95 @@
+
+	<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" lang='ru'>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0, user-scalable=0" />
+	<meta name="HandheldFriendly" content="true">
+
+	<title>The name site</title>
+<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+	{% block head %}
+	<script src="/static/apps/js/jquery-3.6.1.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="/static/apps/static/apps/css/nulstyle-dist.css" type='text/css'> <!-- Zero style -->
+<link rel="stylesheet" href="/static/apps/css/nulstyle-dist.css" type='text/css'> <!-- Zero style -->
+	<link rel="stylesheet" href="/static/apps/css/style-dist.css" type='text/css'> <!-- Common style -->
+	<link rel="stylesheet" href="/static/apps/css/screen-style-dist.css" type='text/css'> <!-- media a screen's size style -->
+
+
+   	<!--	«IE=EmulateIE8» -->
+	<!--	 «IE» -->
+	<link rel="stylesheet" href="/static/apps/css/ie-style.css" media="all" > <!--The browswr's IE style -->
+
+
+	<meta http-equiv= "X-UA-Compatible" content="IE-edge">
+	<!-- [if lte IE8] -->
+<!-- 8% 0%, 0% 10%, 40% 50%, 0% 99%, 16% 100%, 46% 60%, 85% 100%, 100% 85%, 52% 47%, 100% 15%, 100% 0%, 50% 30	 -->
+
+
+   <script src="/static/apps/js/functions.js"></script>
+	 {% endblock head %}
+</head>
+
+<body>
+<div>
+   <script>
+
+   </script>
+   <!--- SIDEBAR beginning-->
+		{% block sidebar %}
+		<aside id="sidbar">
+		  <div>
+		    <img class="main_preview" src="/static/apps/img/foto.png">
+		    <div class=""></div>
+		    <h2>Al Rayhan</h2>
+		       <h4>JI/UX Export</h4>
+		  </div>
+		  <nav class="sidbar_mobile__noactive">
+		    <ul>
+		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Home</a></li>
+		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >About Me</a></li>
+		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Education</a></li>
+		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Work Experience</a></li>
+		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Skills</a></li>
+		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Portfolio</a></li>
+		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Contacts</a></li>
+		    </ul>
+		  </nav>
+		</aside>
+		{% endblock sidebar %}
+
+
+   <!-- HEAD beginning -->
+	 {% block header %}
+	 <header>
+	   <h1>Lets Make Something Great</h1>
+	   <h2>I’m an UI designer that prides ourself on being strategic brand partners and awesome product providers</h2>
+	   <div><a href="/site/cvresume-web/portfolio_group/index.html">Hire Me!</a></div>
+	 </header>
+	 {% endblock header %}
+   <!-- HEAD completed-->
+
+<!-- CONTENT beginning -->
+	{% block content %}
+
+	{% endblock %}
+<!-- CONTENT completed -->
+
+	{% block footer %}
+	<footer>
+		<div>
+		  <div>
+		    <a href='/#01'></a>
+		    <a href='/#01'></a>
+		    <a href='/#01'></a>
+		  </div>
+		  <p>Copyright: Junaed Ahmed, All rights reserved</p>
+		</div>
+	</footer>
+</div>
+
+</body>
+</html>
+{% endblock footer %}

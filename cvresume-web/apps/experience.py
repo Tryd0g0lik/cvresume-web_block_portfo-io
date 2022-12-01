@@ -6,17 +6,12 @@ from apps.models import WorkExperienceModel, EducationModel
 
 
 class Experience_db():
-
-
-
 	def db_pulication(self) -> dict:
 		"""
 		TODO: receives filtered data of the db tables WorkExperienceModel\
 		 and EducationModel
 		:return: type dictionary
 		"""
-		# title = serializers.CharField()
-
 		experience_public = WorkExperienceModel.objects.filter(public='PUBLIC')
 		education_public = EducationModel.objects.filter(public='PUBLIC')
 
@@ -24,9 +19,6 @@ class Experience_db():
 		public_edu = []
 		for exp in experience_public: public_expe.append(exp)
 		for edu in education_public: public_edu.append(edu)
-
-
-		pprint(  public_edu[0].__dict__)
 
 		return {
 			'experince': public_expe,

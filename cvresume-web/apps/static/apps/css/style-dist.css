@@ -58,17 +58,17 @@ main section:nth-of-type(2) > div, main section:nth-of-type(3) > div{position: r
 main section:nth-of-type(2) > div:first-of-type, main section:nth-of-type(3) > div:first-of-type{border-right: 1px #353541 solid;}
 main section:nth-of-type(2) > div ul, main section:nth-of-type(3) > div ul{position:relative; display:inline-block}
 main section:nth-of-type(2) > div ul, main section:nth-of-type(3) > div ul{position: absolute;}
-main section:nth-of-type(2) > div ul{top: 87px;left:0;}
-main section:nth-of-type(3) > div ul:first-of-type{top: 83px;left:0;}
-main section:nth-of-type(2) > div ul:nth-of-type(2), main section:nth-of-type(3) > div ul:nth-of-type(2){left:0; top:200px}
+main section:nth-of-type(2) > div ul{top: 87px;left:17px;}
+main section:nth-of-type(3) > div ul:first-of-type{top: 83px;left:16px;}
+main section:nth-of-type(2) > div ul:nth-of-type(2), main section:nth-of-type(3) > div ul:nth-of-type(2){left:17px; top:200px}
 main section:nth-of-type(2) > div ul:nth-of-type(2){top: 354px;right:0;}
 main section:nth-of-type(3) > div ul:nth-of-type(2){top: 351px;right:0;}
-main section:nth-of-type(2) > div ul li, main section:nth-of-type(3) > div ul li{width: 100%;display: block;max-width: 299px;border-radius: 7px;background-color: #353541;color: #fff;padding: 14px 0px 13px 16px;position: relative;}
+main section:nth-of-type(2) > div ul li, main section:nth-of-type(3) > div ul li{width: 299px;display: block;max-width: 299px;border-radius: 7px;background-color: #353541;color: #fff;padding: 14px 0px 13px 16px;position: relative;}
 main section:nth-of-type(2) > div:nth-of-type(1) ul li:before, main section:nth-of-type(3) > div:nth-of-type(1) ul li:before {content:'';position: absolute;display:inline-block;width:23px;height:21px;background-color: #353541;left: 100%;bottom: 13.4px;-webkit-clip-path: polygon(0px 0px, 24px 19px, 24px 19px, 0px 21px);clip-path: polygon(0px 0px, 24px 19px, 24px 19px, 0px 21px);/* background: url(/static/apps/img/circle.png) no-repeat; */}
 main section:nth-of-type(2) > div:nth-of-type(1) ul li:after, main section:nth-of-type(3) > div:nth-of-type(1) ul li:after {content: '';position: absolute;display: inline-block;width: 32px;height: 32px;left: 112.1%;bottom: -4.6px;background: url(/static/apps/img/circle.png) no-repeat;}
-main section:nth-of-type(2) > div:nth-of-type(2) ul:first-of-type{top: 10px;left: 54px;}
-main section:nth-of-type(3) > div:nth-of-type(2) ul:first-of-type{ top: 6px; left: 55px; }
-main section:nth-of-type(2) > div:nth-of-type(2) ul:nth-of-type(2){top: 278px;left: 54px;}
+main section:nth-of-type(2) > div:nth-of-type(2) ul:first-of-type{top: 10px;left: 50px;}
+main section:nth-of-type(3) > div:nth-of-type(2) ul:first-of-type{ top: 6px; left: 50px; }
+main section:nth-of-type(2) > div:nth-of-type(2) ul:nth-of-type(2){top: 278px;left: 50px;}
 main section:nth-of-type(3) > div:nth-of-type(2) ul:nth-of-type(2){top: 274px;left: 55px;}
 main section:nth-of-type(2) > div:nth-of-type(2) ul li:before, main section:nth-of-type(3) > div:nth-of-type(2) ul li:before {content:'';position: absolute;display:inline-block;width:23px;height:21px;background-color: #353541;right: 100%;bottom: 71.4px;-webkit-clip-path: polygon(0px 2px, 24px 0px, 24px 21px, 0px 2px);clip-path: polygon(0px 2px, 24px 0px, 24px 21px, 0px 2px);/* background: url(/static/apps/img/circle.png) no-repeat; */}
 main section:nth-of-type(2) > div:nth-of-type(2) ul li:after, main section:nth-of-type(3) > div:nth-of-type(2) ul li:after {content: '';position: absolute;display: inline-block;width: 32px;height: 32px;left: -22.4%;bottom: 77.4px;background: url(/static/apps/img/circle.png) no-repeat;}
