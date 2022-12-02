@@ -104,14 +104,12 @@ class PagesAdmin(admin.ModelAdmin):
 		'date_created',
 		'date_change',
 
-		'from_menu',
 		'url_path'
 		'creator',
 	]
 	list_filter = [
 		'type',
 		'creator',
-		'from_menu',
 	]
 	list_display = [
 		'type',
@@ -120,7 +118,6 @@ class PagesAdmin(admin.ModelAdmin):
 		'preview_text',
 		'date_created',
 		'date_change',
-		'from_menu',
 		'url_path'
 	]
 

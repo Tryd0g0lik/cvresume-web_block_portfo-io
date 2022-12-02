@@ -6,7 +6,7 @@ from PIL import Image, ImageFile
 # Create your models here.
 from django.template.defaultfilters import slugify
 from django.utils import timezone
-
+import re
 def _slug_page(
 	_name_text_field: str,
 	_max_leng_url: int,
@@ -35,6 +35,13 @@ class PublicationChoise(models.TextChoices):
 	PUBLIC = "PUBLIC", "Публикация"
 	NOPUBLIC = 'NOPUBLIC', "----"
 
+class TypePageChoices(models.TextChoices):
+	'''
+	TODO: The page view
+	'''
+	ARTICLE = "ARTICLE", "Запись"
+	PAGE = "PAGE", "Страница"
+
 
 class MenuModel(models.Model):
 
@@ -47,12 +54,8 @@ class MenuModel(models.Model):
 		'PagesModel',
 		on_delete=models.CASCADE,
 		related_name='pagesChild'
-	)
 
-	# delete = models.BooleanField(
-	# 	null=True,
-	# 	verbose_name="Удалить",
-	# )
+	)
 	public = models.TextField(
 		choices=PublicationChoise.choices,
 		default=PublicationChoise.NOPUBLIC,
@@ -72,7 +75,8 @@ class WorkExperienceModel(models.Model):
 	name = models.ForeignKey(
 			'PagesModel',
 			verbose_name="Должность",
-			on_delete=models.CASCADE
+			on_delete=models.CASCADE,
+			related_name='namePositionsMenu'
 	)
 	beginning_data = models.DateField(
 		verbose_name='Начало обучения',
@@ -83,10 +87,13 @@ class WorkExperienceModel(models.Model):
 		help_text="Дата окончания обучения",
 		blank=True,
 	)
-	preview_text = models.TextField(
-		max_length=80,
+	preview_text = models.ForeignKey(
+		"PagesModel",
+		on_delete=models.CASCADE,
 		blank=True,
-		help_text="Превью описание"
+		verbose_name="Краткое описание",
+		help_text="Краткое описание в 80 символов",
+		related_name='previewPositionsMenu'
 	)
 
 	public = models.TextField(
@@ -109,22 +116,25 @@ class EducationModel(models.Model):
 	title = models.ForeignKey(
 		'PagesModel',
 		on_delete=models.CASCADE,
-		# related_name="courseTitle",
+		related_name='titlePositionsMenuExpe',
 		help_text="Наименование курса",
 	)
 	beginning_data=models.DateField(
 		verbose_name='Начало работы',
 		help_text='Начало работы в должности',
 	)
+
 	complated_data=models.DateField(
 		help_text='Окончание работы',
 		blank=True,
 	)
-	preview_text = models.TextField(
-		max_length=80,
+	preview_text = models.ForeignKey(
+		"PagesModel",
+		on_delete=models.CASCADE,
 		blank=True,
 		verbose_name="Краткое описание",
-		help_text="Краткое описание в 80 символов"
+		help_text="Краткое описание в 80 символов",
+		related_name='previewPositionsMenuExpe',
 	)
 	public = models.TextField(
 		choices=PublicationChoise.choices,
@@ -141,14 +151,6 @@ class EducationModel(models.Model):
 		verbose_name = "Образование"
 		verbose_name_plural = "Образование"
 
-
-class TypePageChoices(models.TextChoices):
-	'''
-	TODO: The page view
-	'''
-	ARTICLE = "ARTICLE", "Запись"
-	PAGE = "PAGE", "Страница"
-
 class PagesModel(models.Model):
 	type = models.CharField(
 		max_length=50,
@@ -157,7 +159,7 @@ class PagesModel(models.Model):
 		verbose_name="Тип страницы",
 	)
 	title=models.CharField(
-		max_length=100,
+		max_length=80,
 		null=True,
 		verbose_name="Название"
 	)
@@ -189,16 +191,14 @@ class PagesModel(models.Model):
 		verbose_name="Отредактирована",
 	)
 
-	from_menu=models.BooleanField(
-		null=True,
-		verbose_name="Указать в меню"
+	public = models.TextField(
+		choices=PublicationChoise.choices,
+		default=PublicationChoise.NOPUBLIC,
+		help_text="Публикуем на странице или нет. По умолчанию, публикации нет",
+		verbose_name="Публикация",
 	)
 
-	# url_path = models.CharField(
-	# 	max_length=100,
-	# 	verbose_name='url',
-	# 	help_text='Путь к странице',
-	# )
+
 	url_path = models.SlugField(
 			max_length=50,
 			verbose_name='url',
@@ -215,7 +215,7 @@ class PagesModel(models.Model):
 	def save(self, *args, **kwargs):
 		if not self.id:
 			# Newly created object, so set slug
-			self.s = slugify(self.q)
+			self.url_path = slugify(self.title)
 		super(PagesModel, self).save(*args, **kwargs)
 
 	class Meta:

@@ -13,13 +13,22 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.urls import path, include
+# import slug as slug
+from django.urls import path, include, re_path
+from rest_framework import routers
 
 from apps import views
 from cvresume_web import settings
 
+router = routers.SimpleRouter()
+
 urlpatterns = [
     path('', views.indexPage, name='indexPage'),
+    re_path(
+        r"^\w*-?/",
+        views.innerPage,
+        name='innerpage'
+    )
 ]
 
 if settings.DEBUG:
