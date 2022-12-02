@@ -3,9 +3,25 @@ from rest_framework import serializers
 
 
 from apps.models import WorkExperienceModel, EducationModel
+import re
+
+
+def _slug_page(
+	_name_text_field: str,
+	_max_leng_url: int,
+) -> str:
+	_url: str = None
+	_reg = (r'([\w]*[^\\\-;\\/ \\,\\><])')
+	_url_line = str(re.findall(_reg, _name_text_field, flags=re.ASCII)) \
+		            .replace(' ', '_').strip("][").replace("'", '') \
+		            .replace(",", '')[: _max_leng_url]
+	return (_url_line)
+
+
 
 
 class Experience_db():
+
 	def db_pulication(self) -> dict:
 		"""
 		TODO: receives filtered data of the db tables WorkExperienceModel\
@@ -24,3 +40,10 @@ class Experience_db():
 			'experince': public_expe,
 			'education': public_edu	}
 
+
+
+
+
+# class Create_menu():
+# 	def receive_data(self):
+# 		MenuModel.project.

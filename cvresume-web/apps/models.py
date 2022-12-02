@@ -4,7 +4,19 @@ from django.conf import settings
 from django.db import models
 from PIL import Image, ImageFile
 # Create your models here.
+from django.template.defaultfilters import slugify
 from django.utils import timezone
+
+def _slug_page(
+	_name_text_field: str,
+	_max_leng_url: int,
+) -> str:
+	_url: str = None
+	_reg = (r'([\w]*[^\\\-;\\/ \\,\\><])')
+	_url_line = str(re.findall(_reg, _name_text_field, flags=re.ASCII)) \
+		            .replace(' ', '_').strip("][").replace("'", '') \
+		            .replace(",", '')[: _max_leng_url]
+	return (_url_line)
 
 
 class TypeMenuChoise(models.TextChoices):
@@ -25,24 +37,31 @@ class PublicationChoise(models.TextChoices):
 
 
 class MenuModel(models.Model):
+
 	type_page = models.TextField (
 		max_length=50,
 		choices=TypeMenuChoise.choices,
 		default=TypeMenuChoise.PARENTS,
 	)
-	id_pages = models.ForeignKey(
+	title = models.ForeignKey(
 		'PagesModel',
 		on_delete=models.CASCADE,
 		related_name='pagesChild'
 	)
 
-	delete = models.BooleanField(
-		null=True,
-		verbose_name="Удалить",
+	# delete = models.BooleanField(
+	# 	null=True,
+	# 	verbose_name="Удалить",
+	# )
+	public = models.TextField(
+		choices=PublicationChoise.choices,
+		default=PublicationChoise.NOPUBLIC,
+		help_text="Публикуем на странице или нет. По умолчанию, публикации нет",
+		verbose_name="Публикация",
 	)
 
 	def __str__(self):
-		return 'Страница: %s, тип: %s' % (self.id_pages, self.type_page)
+		return 'Страница: %s, тип: %s' % (self.title, self.type_page)
 
 	class Meta:
 		verbose_name = "Раздел меню"
@@ -175,14 +194,29 @@ class PagesModel(models.Model):
 		verbose_name="Указать в меню"
 	)
 
-	url_path = models.CharField(
-		max_length=100,
-		verbose_name='url',
-		help_text='Путь к странице',
-	)
+	# url_path = models.CharField(
+	# 	max_length=100,
+	# 	verbose_name='url',
+	# 	help_text='Путь к странице',
+	# )
+	url_path = models.SlugField(
+			max_length=50,
+			verbose_name='url',
+			help_text='Путь к странице',
+			db_index=True,
+			unique=True,
+			null=True,
+		)
+
 
 	def __str__(self):
 		return '%s' % (self.title, )
+
+	def save(self, *args, **kwargs):
+		if not self.id:
+			# Newly created object, so set slug
+			self.s = slugify(self.q)
+		super(PagesModel, self).save(*args, **kwargs)
 
 	class Meta:
 		verbose_name  = "Страница",

@@ -15,23 +15,25 @@ class PagesInline(admin.StackedInline):
 @admin.register(MenuModel)
 class MenuAdmin(admin.ModelAdmin):
 	fields = [
-		'id_pages',
+		'title',
 		'type_page',
-		'delete',
+		'public',
 		]
 
 
 	list_display = [
 		"id",
 		'type_page',
-		'id_pages',
+		'title',
+		'public',
 
 	]
 	list_filter = [
 		'type_page',
 	]
 	ordering = [
-		'id_pages',
+		'title',
+		'public',
 	]
 
 
