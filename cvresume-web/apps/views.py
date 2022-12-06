@@ -50,9 +50,3 @@ def innerPage(request):
 		template_name='apps/page.html',
 		context=context,
 	)
-
-# def mainMenu(request):
-
-# 	return render(request=request,
-# 	              template_name='apps/',
-# 	              context=response_menu)

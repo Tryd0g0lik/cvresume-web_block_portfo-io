@@ -21,12 +21,11 @@
    <section class="experience">
    <h2>Work Experience</h2>
    <div class="experience__left">
-    {% for edu in education %}
+    {% for edu in menu_porfolio_incidePage.experince %}
         {% if forloop.counter|divisibleby:"2" == True %}
-   
+            
             <ul>
                 <li class="workNme">
-                    <h4>{{  edu.title }}</h4>
                     <span>@DeviserWeb</span>
                     <div class="workDate">{{ edu.beginning_data|date:'M.Y' }} - {{ edu.complated_data|date:'M.Y' }}</div>
                     <div>{{ edu.preview_text|truncatechars_html:30 }}</div>
@@ -36,8 +35,8 @@
     {% endfor %}
    </div>
    <div class="experience__right">
-   
-    {% for edu in education %}
+  
+    {% for edu in menu_porfolio_incidePage.experince %}
         {% if forloop.counter|divisibleby:"2" != True %}
    
             <ul>
@@ -55,7 +54,7 @@
    <section class="experience">
    <h2>Education</h2>
    <div class="experience__left">
-    {% for expe in experince %}
+    {% for expe in menu_porfolio_incidePage.education %}
         {% if forloop.counter|divisibleby:"2" == True %}
    
             <ul>
@@ -71,7 +70,7 @@
    </div>
    <div class="experience__right">
    
-    {% for edu in experince %}
+    {% for edu in menu_porfolio_incidePage.education %}
         {% if forloop.counter|divisibleby:"2" != True %}
    
             <ul>
