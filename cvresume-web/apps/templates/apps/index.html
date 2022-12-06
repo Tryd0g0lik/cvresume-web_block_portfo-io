@@ -1,192 +1,193 @@
 {% extends "./basic.html "%}
 
 {% block content %}
-
-				<div>Lorem ipsum dolor sit amet, ectetuer nonummy nibh euismod tincidunt ut laoreet  magna  laoreet  aliquam erat volutpat.</div>
-				<div>
-					<ul>
-						<li class="title"><h3>Name:</h3><span>Al Rayhan</span></li>
-						<li class="title"><h3>Age:</h3><span>23</span><span>Years</span></li>
-						<li class="title"><h3>Email:</h3><span>mail@deviserweb.com</span></li>
-						<li class="title"><h3>Web:</h3><span>deviserweb.com</span></li>
-						<li class="title"><h3>Address:</h3><span>24, Golden Street, New</span></li>
-					</ul>
-				</div>
-			</div>
-			<div>
-				<img src="/site/cvresume-web/portfolio_group/index.html" alt="My photo" />
-			</div>
-		</section>
-		<section class="experience">
-			<h2>Work Experience</h2>
-			<div class="experience__left">
-				{% for edu in education %}
-					{% if forloop.counter|divisibleby:"2" == True %}
-
-						<ul>
-							<li class="workNme">
-								<h4>{{  edu.title }}</h4>
-								<span>@DeviserWeb</span>
-								<div class="workDate">{{ edu.beginning_data|date:'M.Y' }} - {{ edu.complated_data|date:'M.Y' }}</div>
-								<div>{{ edu.preview_text|truncatechars_html:30 }}</div>
-							</li>
-						</ul>
-					{% endif %}
-				{% endfor %}
-			</div>
-			<div class="experience__right">
-
-				{% for edu in education %}
-					{% if forloop.counter|divisibleby:"2" != True %}
-
-						<ul>
-							<li class="workNme">
-								<h4>{{  edu.title }}</h4>
-								<span>@DeviserWeb</span>
-								<div class="workDate">{{ edu.beginning_data|date:'M.Y' }} - {{ edu.complated_data|date:'M.Y' }}</div>
-								<div>{{ edu.preview_text|truncatechars_html:30 }}</div>
-							</li>
-						</ul>
-					{% endif %}
-				{% endfor %}
-			</div>
-		</section>
-		<section class="experience">
-			<h2>Education</h2>
-			<div class="experience__left">
-				{% for expe in experince %}
-					{% if forloop.counter|divisibleby:"2" == True %}
-
-						<ul>
-							<li class="workNme">
-								<h4>{{  expe.title }}</h4>
-								<span>@DeviserWeb</span>
-								<div class="workDate">{{ expe.beginning_data|date:'M.Y' }} - {{ expe.complated_data|date:'M.Y' }}</div>
-								<div>{{ expe.preview_text|truncatechars_html:30 }}</div>
-							</li>
-						</ul>
-					{% endif %}
-				{% endfor %}
-			</div>
-			<div class="experience__right">
-
-				{% for edu in experince %}
-					{% if forloop.counter|divisibleby:"2" != True %}
-
-						<ul>
-							<li class="workNme">
-								<h4>{{  edu.title }}</h4>
-								<span>@DeviserWeb</span>
-								<div class="workDate">{{ edu.beginning_data|date:'M.Y' }} - {{ edu.complated_data|date:'M.Y' }}</div>
-								<div>{{ edu.preview_text|truncatechars_html:30 }}</div>
-							</li>
-						</ul>
-					{% endif %}
-				{% endfor %}
-			</div>
-		</section>
-
-		<section class="skills">
-			<h2>My Skills</h2>
-			<div class="dataSkills">
-				<ul>
-					<li class="skill">
-						<h3>User Experience</h3>
-						<div>
-							<div class="line">
-								<div class="percent">90</div>
-								<div class="liner"></div>
-							</div>
-						</div>
-					</li>
-					<li class="skill">
-						<h3>User Experience</h3>
-						<div>
-							<div class="line">
-								<div class="percent">90</div>
-								<div class="liner"></div>
-							</div>
-						</div>
-					</li>
-					<li class="skill">
-						<h3>User Experience</h3>
-						<div>
-							<div class="line">
-								<div class="percent">90</div>
-								<div class="liner"></div>
-							</div>
-						</div>
-					</li>
-
-				</ul>
-			</div>
-			<div class="dataSkills">
-				<ul>
-					<li class="skill">
-						<h3>User Experience</h3>
-						<div>
-							<div class="line">
-								<div class="percent">90</div>
-								<div class="liner"></div>
-							</div>
-						</div>
-					</li>
-					<li class="skill">
-						<h3>User Experience</h3>
-						<div>
-							<div class="line">
-								<div class="percent">90</div>
-								<div class="liner"></div>
-							</div>
-						</div>
-					</li>
-					<li class="skill">
-						<h3>User Experience</h3>
-						<div>
-							<div class="line">
-								<div class="percent">90</div>
-								<div class="liner"></div>
-							</div>
-						</div>
-					</li>
-
-				</ul>
-			</div>
-		</section>
-		<section>
-			<div>
-				<div class="contacts-group">
-					<h2>Leave a Massage</h2>
-					<form class='Leave-group'>
-						<div>
-							<input id='username' name='username' type='text'value='Name*' maxlenght='20' reguired='reduired' >
-						</div>
-						<div>
-							<input id='user-email' name='user-email' type='email' placeholder='name-email@damain.com' value='Email*' maxlenght='20' reguired='reduired' placeholder='Please, inter the your @-email. It is compulsory field.'>
-						</div>
-						<div>
-							<textarea id='userMessage' name='user-message' wrap='soft' rows='10' cols="45" reguired='reduired'>Message*</textarea>
-						</div>
-						<div>
-							<input type='button'  name='button' value='Hire Me!'>
-						</div>
-
-					</form>
-				</div>
-				<div class="contacts-group">
-					<div>
-						<h3>Location</h3>
-						<div id='Location'>324, Golden Tower, Amborkhana, Sylhet</div>
-					</div>
-					<div>
-						<h3>Email</h3>
-						<div id='email'><a href='email:junaed@deviserweb.com'>junaed@deviserweb.com</a></div>
-					</div>
-					<div>
-						<h3>Toll Free Call</h3>
-						<div id='Location'><a href='tel:0800 234 6578'>0800 234 6578</a></div>
-					</div>
-
-				</div>
-
+   
+    <div>Lorem ipsum dolor sit amet, ectetuer nonummy nibh euismod tincidunt ut laoreet  magna  laoreet  aliquam erat volutpat.</div>
+    <div>
+        <ul>
+            <li class="title"><h3>Name:</h3><span>Al Rayhan</span></li>
+            <li class="title"><h3>Age:</h3><span>23</span><span>Years</span></li>
+            <li class="title"><h3>Email:</h3><span>mail@deviserweb.com</span></li>
+            <li class="title"><h3>Web:</h3><span>deviserweb.com</span></li>
+            <li class="title"><h3>Address:</h3><span>24, Golden Street, New</span></li>
+        </ul>
+    </div>
+   </div>
+   <div>
+    <img src="/static/apps/img/twiter.png" alt="My photo" />
+   </div>
+   </section>
+   
+   <section class="experience">
+   <h2>Work Experience</h2>
+   <div class="experience__left">
+    {% for edu in education %}
+        {% if forloop.counter|divisibleby:"2" == True %}
+   
+            <ul>
+                <li class="workNme">
+                    <h4>{{  edu.title }}</h4>
+                    <span>@DeviserWeb</span>
+                    <div class="workDate">{{ edu.beginning_data|date:'M.Y' }} - {{ edu.complated_data|date:'M.Y' }}</div>
+                    <div>{{ edu.preview_text|truncatechars_html:30 }}</div>
+                </li>
+            </ul>
+        {% endif %}
+    {% endfor %}
+   </div>
+   <div class="experience__right">
+   
+    {% for edu in education %}
+        {% if forloop.counter|divisibleby:"2" != True %}
+   
+            <ul>
+                <li class="workNme">
+                    <h4>{{  edu.title }}</h4>
+                    <span>@DeviserWeb</span>
+                    <div class="workDate">{{ edu.beginning_data|date:'M.Y' }} - {{ edu.complated_data|date:'M.Y' }}</div>
+                    <div>{{ edu.preview_text|truncatechars_html:30 }}</div>
+                </li>
+            </ul>
+        {% endif %}
+    {% endfor %}
+   </div>
+   </section>
+   <section class="experience">
+   <h2>Education</h2>
+   <div class="experience__left">
+    {% for expe in experince %}
+        {% if forloop.counter|divisibleby:"2" == True %}
+   
+            <ul>
+                <li class="workNme">
+                    <h4>{{  expe.title }}</h4>
+                    <span>@DeviserWeb</span>
+                    <div class="workDate">{{ expe.beginning_data|date:'M.Y' }} - {{ expe.complated_data|date:'M.Y' }}</div>
+                    <div>{{ expe.preview_text|truncatechars_html:30 }}</div>
+                </li>
+            </ul>
+        {% endif %}
+    {% endfor %}
+   </div>
+   <div class="experience__right">
+   
+    {% for edu in experince %}
+        {% if forloop.counter|divisibleby:"2" != True %}
+   
+            <ul>
+                <li class="workNme">
+                    <h4>{{  edu.title }}</h4>
+                    <span>@DeviserWeb</span>
+                    <div class="workDate">{{ edu.beginning_data|date:'M.Y' }} - {{ edu.complated_data|date:'M.Y' }}</div>
+                    <div>{{ edu.preview_text|truncatechars_html:30 }}</div>
+                </li>
+            </ul>
+        {% endif %}
+    {% endfor %}
+   </div>
+   </section>
+   
+   <section class="skills">
+   <h2>My Skills</h2>
+   <div class="dataSkills">
+    <ul>
+        <li class="skill">
+            <h3>User Experience</h3>
+            <div>
+                <div class="line">
+                    <div class="percent">90</div>
+                    <div class="liner"></div>
+                </div>
+            </div>
+        </li>
+        <li class="skill">
+            <h3>User Experience</h3>
+            <div>
+                <div class="line">
+                    <div class="percent">90</div>
+                    <div class="liner"></div>
+                </div>
+            </div>
+        </li>
+        <li class="skill">
+            <h3>User Experience</h3>
+            <div>
+                <div class="line">
+                    <div class="percent">90</div>
+                    <div class="liner"></div>
+                </div>
+            </div>
+        </li>
+   
+    </ul>
+   </div>
+   <div class="dataSkills">
+    <ul>
+        <li class="skill">
+            <h3>User Experience</h3>
+            <div>
+                <div class="line">
+                    <div class="percent">90</div>
+                    <div class="liner"></div>
+                </div>
+            </div>
+        </li>
+        <li class="skill">
+            <h3>User Experience</h3>
+            <div>
+                <div class="line">
+                    <div class="percent">90</div>
+                    <div class="liner"></div>
+                </div>
+            </div>
+        </li>
+        <li class="skill">
+            <h3>User Experience</h3>
+            <div>
+                <div class="line">
+                    <div class="percent">90</div>
+                    <div class="liner"></div>
+                </div>
+            </div>
+        </li>
+   
+    </ul>
+   </div>
+   </section>
+   <section>
+   <div>
+    <div class="contacts-group">
+        <h2>Leave a Massage</h2>
+        <form class='Leave-group'>
+            <div>
+                <input id='username' name='username' type='text'value='Name*' maxlenght='20' reguired='reduired' >
+            </div>
+            <div>
+                <input id='user-email' name='user-email' type='email' placeholder='name-email@damain.com' value='Email*' maxlenght='20' reguired='reduired' placeholder='Please, inter the your @-email. It is compulsory field.'>
+            </div>
+            <div>
+                <textarea id='userMessage' name='user-message' wrap='soft' rows='10' cols="45" reguired='reduired'>Message*</textarea>
+            </div>
+            <div>
+                <input type='button'  name='button' value='Hire Me!'>
+            </div>
+   
+        </form>
+    </div>
+    <div class="contacts-group">
+        <div>
+            <h3>Location</h3>
+            <div id='Location'>324, Golden Tower, Amborkhana, Sylhet</div>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <div id='email'><a href='email:junaed@deviserweb.com'>junaed@deviserweb.com</a></div>
+        </div>
+        <div>
+            <h3>Toll Free Call</h3>
+            <div id='Location'><a href='tel:0800 234 6578'>0800 234 6578</a></div>
+        </div>
+   
+    </div>
+   
 {% endblock content %}

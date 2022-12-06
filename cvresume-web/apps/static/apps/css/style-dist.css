@@ -21,9 +21,11 @@ aside, header, .main {display: table-cell;}
 polygon
 (0px 1px, 1px 0px, 10.1px 8px, 17px 0px, 15px 1px, 19px 0px, 11px 9px, 18px 18px, 16px 18px, 10px 11px,2px 18px, 0px 18px, 9px 9px);clip-path: polygon(0px 1px, 1px 0px, 10.1px 8px, 17px 0px, 15px 1px, 19px 0px, 11px 9px, 18px 18px, 16px 18px, 10px 11px,2px 18px, 0px 18px, 9px 9px);}
 
-#sidbar > div h4, #sidbar > div h2 {color:#fff;position:absolute;bottom: 14px;left: 26px;}
+#sidbar > div h4, #sidbar > div h2 {position:absolute;bottom: 14px;left: 26px;}
+#sidbar > div h4 a, #sidbar > div h2 a{color:#fff; font-size: inherit;
+    font-weight: 500;}
 
-#sidbar > div h2{bottom: 40px;}
+#sidbar > div h2 {bottom: 40px;}
 
 #sidbar nav li { padding: 18px 0 17px 28px; min-height: 42px; border-bottom: #282835 1px solid; }
 

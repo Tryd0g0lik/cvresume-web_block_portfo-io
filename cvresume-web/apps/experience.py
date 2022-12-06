@@ -2,7 +2,7 @@ from pprint import pprint
 from rest_framework import serializers
 
 
-from apps.models import WorkExperienceModel, EducationModel
+from apps.models import WorkExperienceModel, EducationModel, MenuModel
 import re
 
 
@@ -39,6 +39,22 @@ class Experience_db():
 		return {
 			'experince': public_expe,
 			'education': public_edu	}
+
+	def main_menu(self):
+		page = []
+		respons_position_menu = MenuModel.objects.filter(public='PUBLIC')
+
+		for _position in respons_position_menu:
+
+			page.append({"type_page": _position.type_page,
+			             "title": _position.title,
+			             "slug": _position.title.url_path,
+			             "preview_text": _position.title.preview_text,
+			             "description": _position.title.description,
+			             "date_created": _position.title.date_created,
+			             "date_change": _position.title.date_change,
+			             } )
+		return {'page': page}
 
 
 

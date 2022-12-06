@@ -56,6 +56,7 @@ class MenuModel(models.Model):
 		related_name='pagesChild'
 
 	)
+	
 	public = models.TextField(
 		choices=PublicationChoise.choices,
 		default=PublicationChoise.NOPUBLIC,
@@ -205,12 +206,11 @@ class PagesModel(models.Model):
 			help_text='Путь к странице',
 			db_index=True,
 			unique=True,
-			null=True,
 		)
 
 
 	def __str__(self):
-		return '%s' % (self.title, )
+		return '%s' % (self.title,)
 
 	def save(self, *args, **kwargs):
 		if not self.id:

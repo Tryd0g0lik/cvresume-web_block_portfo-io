@@ -33,29 +33,32 @@
 </head>
 
 <body>
-<div>
-   <script>
-
-   </script>
+<div>>
    <!--- SIDEBAR beginning-->
 		{% block sidebar %}
 		<aside id="sidbar">
 		  <div>
 		    <img class="main_preview" src="/static/apps/img/foto.png">
 		    <div class=""></div>
-		    <h2>Al Rayhan</h2>
-		       <h4>JI/UX Export</h4>
+		    <h2><a href="/">Al Rayhan</a></h2>
+		       <h4><a href="/">JI/UX Export</a></h4>
 		  </div>
 		  <nav class="sidbar_mobile__noactive">
-		    <ul>
-		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Home</a></li>
-		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >About Me</a></li>
-		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Education</a></li>
-		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Work Experience</a></li>
-		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Skills</a></li>
-		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Portfolio</a></li>
-		      <li class="nav"><a href="/site/cvresume-web/portfolio_group/index.html" >Contacts</a></li>
-		    </ul>
+             <ul>
+                {% for single in data_OnPage %}
+                   {% if single.type_page == 'PARENTS' %}
+                     <li class="nav"><a href="/{{ single.slug }}/" >
+                        {{ single.title.title|truncatechars:20 }} </a></li>
+                  
+                  {% endif %}
+               {% endfor %}
+              <!-- li class="nav"><a href="#" >About Me</a></li>
+              <li class="nav"><a href="#" >Education</a></li>
+              <li class="nav"><a href="#" >Work Experience</a></li>
+              <li class="nav"><a href="#" >Skills</a></li>
+              <li class="nav"><a href="#" >Portfolio</a></li>
+              <li class="nav"><a href="#" >Contacts</a></li -->
+            </ul>
 		  </nav>
 		</aside>
 		{% endblock sidebar %}
@@ -66,7 +69,7 @@
 	 <header>
 	   <h1>Lets Make Something Great</h1>
 	   <h2>I’m an UI designer that prides ourself on being strategic brand partners and awesome product providers</h2>
-	   <div><a href="/site/cvresume-web/portfolio_group/index.html">Hire Me!</a></div>
+	   <div><a href="#">Hire Me!</a></div>
 	 </header>
 	 {% endblock header %}
    <!-- HEAD completed-->
@@ -86,6 +89,7 @@
 	</main>
 </div>
 <!-- CONTENT completed -->
+	
 
 	{% block footer %}
 	<footer>
